@@ -1,0 +1,109 @@
+@import '../../../../styles/imports';
+
+@mixin img-animation {
+    animation: opacity-img ease 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opacity-img {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.reservation {
+    &__heading {
+        @include h2-alt;
+        color: $color-gray;
+        padding-bottom: 28px;
+    }
+
+    &__grid-container {
+        display: grid;
+        grid-column-gap: 48px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+
+        @media (min-width: 600px) and (max-width: 768px) {
+            grid-column-gap: 24px;
+        }
+    }
+    @media (max-width: 600px) {
+        &__grid-container {
+            grid-row-gap: 48px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+.reservation-box {
+    align-items: flex-start;
+    background-color: $color-white;
+    border-radius: 8px;
+    color: $color-gray;
+    cursor: pointer;
+    display: flex;
+    filter: drop-shadow(0 8px 23px hsla(0, 0%, 0%, 0.25));
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 16px;
+    position: relative;
+    text-decoration: none;
+    transition: filter 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+        filter: drop-shadow(15px 10px 4px rgb(211, 211, 216));
+        transform: scale(1.02);
+    }
+
+    &__img {
+        @include img-animation();
+        position: absolute;
+        right: 32px;
+        top: -15px;
+    }
+
+    &__reserved {
+        color: $color-gray-800;
+    }
+
+    &__title {
+        @include h2-alt;
+        color: $color-gray;
+    }
+
+    @media (max-width: 415px) {
+        &__img {
+            right: 0;
+            transform: scale(0.8);
+        }
+    }
+
+    @media (min-width: 600px) and (max-width: 768px) {
+        &__title {
+            max-width: 80px;
+        }
+
+        &__img {
+            right: -30px;
+            top: -50px;
+            transform: scale(0.6);
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1150px) {
+        &__title {
+            max-width: 80px;
+        }
+
+        &__img {
+            right: -15px;
+            top: -30px;
+            transform: scale(0.8);
+        }
+    }
+}

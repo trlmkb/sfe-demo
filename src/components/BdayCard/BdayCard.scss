@@ -1,0 +1,193 @@
+@import '../../styles/imports';
+
+.bday-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+
+    &__profile {
+        height: 96px;
+        position: relative;
+        width: 96px;
+        z-index: $zindex-tooltip;
+    }
+
+    &__img {
+        border-radius: 50%;
+        display: block;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &__content {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 16px;
+        padding-left: 31.47px;
+        padding-right: 31.47px;
+        padding-top: 16px;
+    }
+
+    &__details {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 49px;
+    }
+
+    &__text {
+        font-family: $font-family;
+        font-size: $font-size-xsmall;
+        font-weight: $font-weight-normal;
+        line-height: 16px;
+
+        &--name-uppercase {
+            @include caption-uppercase;
+        }
+    }
+
+    &__gift {
+        align-items: center;
+        display: flex;
+    }
+
+    &__comment {
+        align-items: center;
+        display: flex;
+    }
+
+    &__numbers {
+        color: $color-gray-800;
+        font-family: $font-family;
+        font-size: $font-size-xsmall;
+        font-weight: $font-weight-medium;
+        padding-left: 8px;
+        padding-right: 12px;
+    }
+
+    &__main {
+        background-color: $color-white;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+        height: 100%;
+        margin-top: -48px;
+        padding-bottom: 16px;
+        width: 100%;
+
+        &__action {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 16px;
+            width: 100%;
+        }
+
+        &__divider {
+            background-color: $color-gray-450;
+            height: 1px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    }
+
+    &__confetti-deco {
+        margin-top: 30px;
+    }
+}
+
+@keyframes confetti-piece-fall {
+    0% {
+        top: 20%;
+    }
+
+    100% {
+        top: 90%;
+    }
+}
+
+@keyframes confetti-piece-shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.confetti-piece {
+    animation-duration: 8s, 4s;
+    animation-iteration-count: infinite, infinite;
+    animation-name: confetti-piece-fall, confetti-piece-shake;
+    animation-play-state: running, running;
+    animation-timing-function: linear, ease-in-out;
+    cursor: default;
+    height: 7.8px;
+    opacity: 0.25;
+    position: absolute !important;
+    user-select: none;
+    width: 7.6px;
+}
+
+.confetti-piece:nth-of-type(0) {
+    animation-delay: 0s, 0s;
+    left: 1%;
+}
+
+.confetti-piece:nth-of-type(1) {
+    animation-delay: 1s, 1s;
+    left: 10%;
+}
+
+.confetti-piece:nth-of-type(2) {
+    animation-delay: 3s, 0.5s;
+    left: 20%;
+}
+
+.confetti-piece:nth-of-type(3) {
+    animation-delay: 4s, 1s;
+    left: 30%;
+}
+
+.confetti-piece:nth-of-type(4) {
+    animation-delay: 2s, 2s;
+    left: 40%;
+}
+
+.confetti-piece:nth-of-type(5) {
+    animation-delay: 7s, 3s;
+    left: 50%;
+}
+
+.confetti-piece:nth-of-type(6) {
+    animation-delay: 4.5s, 2s;
+    left: 60%;
+}
+
+.confetti-piece:nth-of-type(7) {
+    animation-delay: 2.5s, 1s;
+    left: 70%;
+}
+
+.confetti-piece:nth-of-type(8) {
+    animation-delay: 1s, 0s;
+    left: 75%;
+}
+
+.confetti-piece:nth-of-type(9) {
+    animation-delay: 3s, 1.5s;
+    left: 85%;
+}

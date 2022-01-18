@@ -1,0 +1,24 @@
+@import '../../styles/imports';
+
+.footer {
+    background-color: $color-white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 100%;
+
+    &__container {
+        @include layout-container;
+        display: flex;
+        justify-content: flex-end;
+        padding: 28px 48px;
+
+        @include respond-to('tablet') {
+            padding: 28px 24px;
+        }
+    }
+
+    &__text {
+        @include tiny-uppercase;
+        color: $color-gray;
+    }
+}

@@ -1,0 +1,24 @@
+@import '../../styles/imports';
+
+.control-button {
+    $_color-button: $color-white;
+    background-color: $_color-button;
+    border: 1px solid $color-gray-400;
+    cursor: pointer;
+    height: 1.5rem;
+    transition: background-color 250ms ease;
+    width: 1.5rem;
+
+    &:hover {
+        $_color-button: darken($color-white, 5%);
+        background-color: $_color-button;
+    }
+
+    &--right {
+        border-radius: 0 5px 5px 0;
+    }
+
+    &--left {
+        border-radius: 5px 0 0 5px;
+    }
+}

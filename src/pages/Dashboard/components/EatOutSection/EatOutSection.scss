@@ -1,0 +1,65 @@
+@import '../../../../styles/imports';
+
+.eat-out {
+    &__container {
+        flex: 1 1 auto;
+    }
+
+    &__grid {
+        align-items: stretch;
+        align-self: center;
+        column-gap: 48px;
+        display: grid;
+        grid-template-areas: 'c b a';
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 1150px) {
+        &__grid {
+            gap: 24px;
+            grid-template-areas:
+                'a b '
+                'c c ';
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+        }
+
+        &__item1 {
+            place-self: center;
+        }
+    }
+
+    @media (max-width: 767px) {
+        &__grid {
+            grid-template-areas:
+                'a'
+                'b'
+                'c';
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 24px;
+        }
+
+        &__item1 {
+            place-self: stretch;
+        }
+    }
+
+    &__item2 {
+        display: flex;
+        grid-area: a;
+        transition: all 0.3s ease;
+    }
+
+    &__item3 {
+        display: flex;
+        grid-area: b;
+        transition: all 0.3s ease;
+    }
+
+    &__item1 {
+        display: flex;
+        grid-area: c;
+        transition: all 0.3s ease;
+    }
+}

@@ -1,0 +1,12 @@
+@mixin layout-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 48px;
+
+    @include respond-to('tablet') {
+        padding: 24px;
+    }
+    @include respond-to('mobile') {
+        padding: 12px;
+    }
+}

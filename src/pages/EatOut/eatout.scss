@@ -1,0 +1,35 @@
+@import '../../styles/imports';
+
+.eatout {
+    height: 100%;
+    width: 100%;
+
+    &__container {
+        @include layout-container;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+
+        @include respond-to('tablet') {
+            gap: 36px;
+        }
+        @include respond-to('mobile') {
+            gap: 18px;
+        }
+    }
+
+    &__heading {
+        align-self: start;
+
+        h1 {
+            @include h1-regular;
+            color: $color-gray;
+            padding-top: 0.5rem;
+        }
+    }
+}
+
+.eatout__container > section {
+    width: 100%;
+}

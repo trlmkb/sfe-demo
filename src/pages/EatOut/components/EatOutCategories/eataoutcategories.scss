@@ -1,0 +1,92 @@
+@import '../../../../styles/imports';
+
+@mixin img-animation {
+    animation: opacity-img ease 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opacity-img {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.categories {
+    &__container {
+        padding-right: 48px;
+    }
+
+    &__heading {
+        @include h2-alt;
+        color: $color-gray;
+        padding-bottom: 42px;
+    }
+
+    &__grid-container {
+        display: grid;
+        grid-column-gap: 95px;
+        grid-row-gap: 63px;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        margin: 0 auto;
+        @media (max-width: 1320px) {
+            grid-template-columns: repeat(3, 1fr);
+            width: 90%;
+        }
+        @media (max-width: 1000px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 670px) {
+            grid-template-columns: repeat(1, 1fr);
+            width: 80%;
+        }
+    }
+}
+
+.category-box {
+    align-items: flex-start;
+    background-color: $color-grey-980;
+    border-radius: 8px;
+    color: $color-lightgray;
+    display: flex;
+    filter: drop-shadow(0 8px 23px hsla(0, 0%, 0%, 0.25));
+    flex-direction: column;
+    justify-content: center;
+    padding: 22px 16px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+    &:hover {
+        filter: drop-shadow(15px 10px 4px rgb(211, 211, 216));
+        transform: scale(1.06);
+        z-index: $zindex-modal-backdrop;
+    }
+
+    &__title {
+        @include h2-alt;
+        color: $color-gray;
+    }
+
+    &__places {
+        color: $color-gray-800;
+        font-size: $font-size-xsmall;
+        line-height: 1.5;
+    }
+
+    &__img {
+        @include img-animation();
+        position: absolute;
+        right: -60px;
+        top: -28px;
+    }
+
+    &__icon {
+        max-height: 150px;
+        max-width: 150px;
+    }
+}

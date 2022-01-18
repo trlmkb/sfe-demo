@@ -1,0 +1,103 @@
+@import '../../styles/imports';
+/* stylelint-disable property-no-vendor-prefix */
+/* stylelint-disable selector-no-vendor-prefix */
+.comments {
+    padding: 0.75rem 1rem 0;
+}
+
+.comments-list {
+    border-bottom: 1px solid $color-gray-border;
+    border-top: 1px solid $color-gray-border;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    max-height: 145px;
+    overflow-y: scroll;
+    padding: 0.5rem 0;
+    scrollbar-color: $color-gray-500 transparent;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $color-gray-500;
+        border-radius: 0.25rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &__comment {
+        color: $color-gray;
+        font-size: $font-size-xxsmall;
+        line-height: calc(15 / 10);
+        word-wrap: break-word;
+    }
+
+    &__comment-info {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.25rem;
+    }
+
+    &__comment-name {
+        font-weight: $font-weight-medium;
+        text-transform: uppercase;
+    }
+}
+
+.comment-block {
+    align-items: center;
+    display: flex;
+
+    &__user-img {
+        border-radius: 50%;
+        height: 1.5rem;
+        object-fit: cover;
+        width: 1.5rem;
+    }
+
+    &__form {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0.75rem;
+        width: 100%;
+    }
+
+    &__input {
+        border: 0;
+        color: $color-gray;
+        font-family: $font-family;
+        font-size: $font-size-xxsmall;
+        height: 1.5rem;
+        line-height: calc(15 / 10);
+        margin-right: 0.75rem;
+        max-height: 6rem;
+        -ms-overflow-style: none;
+        overflow-y: scroll;
+        padding-top: 0.25rem;
+        resize: none;
+        scrollbar-width: none;
+        width: 100%;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: $color-gray-700;
+            font-family: $font-family;
+        }
+    }
+}
+/* stylelint-enable selector-no-vendor-prefix */
+/* stylelint-enable property-no-vendor-prefix */

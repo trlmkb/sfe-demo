@@ -1,0 +1,8 @@
+http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/userData.json
+http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/categories.json
+http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/devices.json
+http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/books.json
+http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/restaurants.json
+http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/rooms.json
+http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/stories.json
+http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/weather.json

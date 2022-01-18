@@ -1,0 +1,14 @@
+.greetings-section {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-between;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 24px;
+    }
+}

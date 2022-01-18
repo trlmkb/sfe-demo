@@ -1,0 +1,30 @@
+@import '../../styles/imports';
+
+.breadcrumbs {
+    @include caption-uppercase;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__link {
+        align-items: center;
+        color: $color-gray-700;
+        display: flex;
+        text-decoration: none;
+        transition: color 250ms ease;
+
+        &:hover,
+        &active {
+            $_link-on-hover: darken($color-gray-700, 30%);
+            color: $_link-on-hover;
+        }
+    }
+
+    &__separator {
+        margin: 0 7px;
+    }
+
+    &__current-page {
+        color: $color-gray-900;
+    }
+}

@@ -1,0 +1,58 @@
+@import '../../../styles/imports';
+
+.burger-menu {
+    background: transparent;
+    display: none;
+    margin-left: auto;
+    position: relative;
+
+    @media (max-width: 768px) {
+        align-items: center;
+        display: flex;
+    }
+
+    &__list {
+        background-color: $color-white;
+        border: 1px solid $color-gray-500;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: -30px;
+        top: 60px;
+        z-index: $zindex-popover;
+
+        path {
+            stroke: $color-gray;
+        }
+
+        .navBar__menu__link {
+            color: $color-gray;
+        }
+    }
+
+    &__list-item {
+        align-items: center;
+        background-color: $color-white;
+        color: $color-gray;
+        cursor: pointer;
+        display: flex;
+        font-size: $font-size-normal;
+        font-weight: $font-weight-medium;
+        height: 80px;
+        line-height: 1.5;
+        text-decoration: none;
+        transition: background-color 0.25s ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-color: $color-navbar-onover;
+        }
+    }
+
+    &__list-icon {
+        height: 24px;
+        margin: 0 12px 0 24px;
+        width: 24px;
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../styles/imports';
+
+.eat-out-categories {
+    height: 100%;
+    width: 100%;
+
+    &__container {
+        @include layout-container;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 48px;
+    }
+
+    &__breadcrumbs {
+        align-self: start;
+    }
+
+    &__title {
+        @include h1-regular;
+        align-self: start;
+        color: $color-gray;
+        margin-bottom: 72px;
+    }
+
+    &__grid {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+
+        @include respond-to('tablet') {
+            gap: 24px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include respond-to('mobile') {
+            gap: 16px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

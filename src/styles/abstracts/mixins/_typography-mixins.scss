@@ -1,0 +1,111 @@
+@import '../typography';
+
+// HEADINGS
+
+@mixin h1-regular {
+    font-size: $font-size-xxlarge;
+    font-weight: $font-weight-bold;
+    line-height: calc(42 / 36);
+    margin: 0;
+}
+
+@mixin h2-regular {
+    font-size: $font-size-xlarge;
+    font-weight: $font-weight-medium;
+    line-height: calc(37 / 32);
+}
+
+@mixin h2-alt {
+    font-size: $font-size-large;
+    font-weight: $font-weight-heavy;
+    line-height: calc(32 / 24);
+}
+
+@mixin h3-regular {
+    font-size: $font-size-large;
+    font-weight: $font-weight-medium;
+    letter-spacing: 0.5px;
+    line-height: calc(28 / 24);
+}
+
+@mixin h3-alt {
+    font-size: $font-size-xmedium;
+    font-weight: $font-weight-medium;
+    line-height: calc(24 / 20);
+}
+
+@mixin h4-regular {
+    font-size: $font-size-xmedium;
+    font-weight: $font-weight-medium;
+    line-height: calc(23 / 20);
+}
+
+@mixin h4-alt {
+    font-size: $font-size-normal;
+    font-weight: $font-weight-medium;
+    line-height: calc(24 / 16);
+}
+
+@mixin h5-regular {
+    font-size: $font-size-medium;
+    font-weight: $font-weight-normal;
+    line-height: calc(21 / 18);
+}
+
+// BODY
+
+@mixin body-heavy {
+    font-size: $font-size-normal;
+    font-weight: $font-weight-heavy;
+    line-height: calc(24 / 16);
+}
+
+@mixin body-normal {
+    font-size: $font-size-normal;
+    font-weight: $font-weight-normal;
+    line-height: calc(24 / 16);
+}
+
+// BODY 2
+
+@mixin body2-medium {
+    font-size: $font-size-small;
+    font-weight: $font-weight-medium;
+    line-height: calc(20 / 14);
+}
+
+@mixin body2-normal {
+    font-size: $font-size-small;
+    font-weight: $font-weight-normal;
+    line-height: calc(20 / 14);
+}
+
+// CAPTION
+
+@mixin caption-regular {
+    font-size: $font-size-small;
+    font-weight: $font-weight-medium;
+    line-height: calc(16 / 14);
+}
+
+@mixin caption-uppercase {
+    font-size: $font-size-xsmall;
+    font-weight: $font-weight-medium;
+    line-height: calc(18 / 12);
+    text-transform: uppercase;
+}
+
+// TINY
+
+@mixin tiny-uppercase {
+    font-size: $font-size-xxsmall;
+    font-weight: $font-weight-medium;
+    line-height: calc(16 / 10);
+    text-transform: uppercase;
+}
+
+@mixin tiny-normal {
+    font-size: $font-size-xsmall;
+    font-weight: $font-weight-normal;
+    line-height: calc(16 / 12);
+}

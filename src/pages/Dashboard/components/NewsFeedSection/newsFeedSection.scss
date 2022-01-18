@@ -1,0 +1,42 @@
+@import '../../../../styles/imports';
+
+.news {
+    @media (max-width: 1150px) {
+        align-items: center;
+        align-self: center;
+    }
+
+    &__title {
+        @include h2-alt;
+        color: $color-gray;
+    }
+
+    &__masonry-grid {
+        column-gap: 48px;
+        /* stylelint-disable-next-line value-no-vendor-prefix */
+        display: -webkit-box;
+        /* stylelint-disable-next-line value-no-vendor-prefix */
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 24px;
+        width: auto;
+
+        @media (max-width: 850px) {
+            column-gap: 24px;
+        }
+    }
+
+    &__column {
+        background-clip: padding-box;
+    }
+
+    &__item {
+        margin-bottom: 48px;
+        position: relative;
+    }
+
+    &__footer {
+        display: flex;
+        place-content: center;
+    }
+}

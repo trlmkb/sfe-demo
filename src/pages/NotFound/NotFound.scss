@@ -1,0 +1,47 @@
+@import '../../styles/imports';
+
+.notfound {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    width: 350px;
+
+    &__symbol--wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    &__symbol {
+        color: $color-black;
+        font-family: $font-family;
+        font-size: $font-size-extra;
+        font-weight: $font-weight-bold;
+        height: 150px;
+        text-align: center;
+        width: 100px;
+    }
+
+    &__text {
+        color: $color-lightred;
+        font-family: $font-family;
+        font-size: $font-size-large;
+        font-weight: $font-weight-medium;
+        text-align: center;
+    }
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotating 2s linear infinite;
+}

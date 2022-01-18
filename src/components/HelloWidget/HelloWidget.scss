@@ -1,0 +1,28 @@
+@import '../../styles/imports';
+
+$font-size-xxxxlarge: 100px;
+
+.hello-widget {
+    align-items: flex-start;
+    color: $color-gray;
+    display: flex;
+    flex-direction: column;
+    font-weight: $font-weight-bold;
+    width: 100%;
+
+    &__time {
+        font-size: $font-size-xxxxlarge;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
+    &__greeting {
+        font-size: $font-size-xxlarge;
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        align-content: center;
+        text-align: center;
+    }
+}

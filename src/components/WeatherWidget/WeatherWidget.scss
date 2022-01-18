@@ -1,0 +1,136 @@
+@import '../../styles/imports';
+
+.weather-widget {
+    display: flex;
+    margin-right: 80px;
+    max-width: 420px;
+    position: relative;
+    width: 100%;
+    z-index: $zindex-dropdown;
+
+    &__container {
+        background-color: $color-white;
+        border-radius: 10px;
+        box-shadow: 0 8px 23px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 176px;
+        padding: 9px 18px;
+        width: 100%;
+
+        &--onload {
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__error-message {
+        bottom: 1.5rem;
+        color: $color-black;
+        opacity: 0.7;
+        position: absolute;
+    }
+
+    &__heading {
+        @include tiny-normal;
+        color: $color-black;
+        letter-spacing: 1px;
+        line-height: calc(14 / 12);
+        opacity: 0.5;
+    }
+
+    &__forecast {
+        align-items: flex-end;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 250px;
+    }
+
+    &__temperature {
+        $_temperature-font-size: 3.75rem;
+
+        color: $color-black;
+        font-size: $_temperature-font-size;
+        font-weight: $font-weight-light;
+        line-height: calc(70 / 60);
+        opacity: 0.7;
+        padding-right: 1rem;
+    }
+
+    &__main {
+        color: $color-black;
+        font-size: $font-size-xmedium;
+        font-weight: $font-weight-light;
+        margin: 0;
+        opacity: 0.5;
+        padding-bottom: 10px;
+    }
+
+    &__divider {
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        margin: 0;
+        max-width: 209px;
+        width: 100%;
+    }
+
+    &__wind,
+    &__rain {
+        @include tiny-normal;
+        align-items: center;
+        color: $color-black;
+        display: flex;
+        line-height: calc(14 / 12);
+        padding-right: 30px;
+        padding-top: 9px;
+
+        p {
+            opacity: 0.5;
+        }
+    }
+
+    &__small-icon {
+        opacity: 1;
+        padding-right: 6px;
+    }
+
+    &__weather-icon {
+        animation: fade-in 2s ease-out;
+        position: absolute;
+        right: -80px;
+        z-index: $zindex-dropdown;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .weather-widget {
+        margin-right: 0;
+
+        &__weather-icon {
+            right: 0;
+            width: 40%;
+        }
+    }
+}

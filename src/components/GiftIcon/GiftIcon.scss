@@ -1,0 +1,22 @@
+@import '../../styles/imports';
+
+.gift-icon {
+    cursor: pointer;
+    transition: stroke-opacity 0.25s ease-in-out;
+
+    &--active {
+        stroke-opacity: 0.7;
+
+        .gift-top {
+            fill: $color-lightyellow;
+        }
+
+        .gift-bottom {
+            fill: $color-lightred;
+        }
+    }
+
+    &:hover {
+        stroke-opacity: 0.7;
+    }
+}

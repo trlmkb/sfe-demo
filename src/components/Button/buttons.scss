@@ -1,0 +1,101 @@
+@import '../../styles/imports';
+
+button {
+    align-items: center;
+    border-width: 0;
+    color: $color-white;
+    padding: 0;
+    transition: background 0.3s ease;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btn {
+    &__primary {
+        background: $color-blue;
+        border-radius: 65px;
+        display: inline-block;
+        justify-content: center;
+        padding: 8px 24px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    &__primary:disabled {
+        background: $color-gray-300;
+        color: $color-gray-700;
+    }
+
+    &__primary:hover:not([disabled]) {
+        background: darken($color-blue, 20%);
+    }
+
+    &__primary:focus:not([disabled]) {
+        background: darken($color-blue, 20%);
+    }
+
+    &__primary:active:not([disabled]) {
+        background: darken($color-blue, 40%);
+    }
+
+    &__large {
+        font-size: $font-size-small;
+        font-weight: 500;
+        line-height: 1.714;
+    }
+
+    &__medium {
+        font-size: $font-size-xsmall;
+        font-weight: 500;
+        line-height: 1.5;
+        padding: 9px 16px 10px;
+    }
+
+    &__icon {
+        height: 16px;
+        padding-right: 4px;
+        vertical-align: middle;
+        width: 16px;
+    }
+
+    &__secondary {
+        background: none !important;
+        color: $color-gray-900;
+        font-size: $font-size-xsmall;
+        font-weight: 500;
+        line-height: 1.6;
+        padding: 0;
+        vertical-align: middle;
+
+        &__icon {
+            height: 16px;
+            line-height: 1.875;
+            padding-right: 8px;
+            vertical-align: top;
+            width: 16px;
+
+            &__icon:hover {
+                color: $color-gray;
+            }
+        }
+    }
+
+    &__secondary:disabled {
+        color: $color-grey-disabledbutton;
+    }
+
+    &__secondary:hover:not([disabled]) {
+        color: $color-gray;
+    }
+
+    &__secondary:focus:not([disabled]) {
+        color: $color-gray;
+    }
+
+    &__secondary:hover:active {
+        color: $color-dark-blue;
+    }
+}

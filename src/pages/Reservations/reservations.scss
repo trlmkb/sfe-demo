@@ -1,0 +1,14 @@
+@import '../../styles/imports';
+
+.reservations {
+    height: 100%;
+    width: 100%;
+
+    &__container {
+        @include layout-container;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 48px;
+    }
+}

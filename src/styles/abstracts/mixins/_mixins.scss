@@ -1,0 +1,54 @@
+@mixin respond-to($size, $dir) {
+    @if ($size == retina) {
+        // stylelint-disable media-feature-name-no-vendor-prefix
+        @media only screen and (min-resolution: 2dppx),
+            (-webkit-min-device-pixel-ratio: 2) {
+            @content;
+        }
+    } @else if ($size and $dir) {
+        @media screen and (#{$dir}-width: ($size + px)) {
+            @content;
+        }
+    }
+}
+
+@mixin text-shorten($lines) {
+    @if $lines != null {
+        /* stylelint-disable-next-line property-no-vendor-prefix */
+        -webkit-box-orient: vertical;
+        /* stylelint-disable-next-line value-no-vendor-prefix */
+        display: -webkit-box;
+        -webkit-line-clamp: $lines;
+        overflow: hidden;
+    } @else {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+@mixin cards-per-slide($cards, $gap) {
+    @if $gap > 0 {
+        $total-gap: calc(#{$gap} * (#{$cards} - 1));
+        min-width: calc((100% - #{$total-gap}) / #{$cards});
+    } @else {
+        min-width: 100%;
+    }
+}
+
+$breakpoints: (
+    'mobile': 768px,
+    'tablet': 1150px,
+) !default;
+
+@mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (max-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    } @else {
+        @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+    }
+}

@@ -1,0 +1,90 @@
+@import '../../styles/imports';
+
+.inputField {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+
+    &__label {
+        color: $color-gray-700;
+        font-family: $font-family;
+        font-size: $font-size-small;
+        font-weight: $font-weight-bold;
+        line-height: calc(16 / 14);
+        text-transform: uppercase;
+
+        &--disabled {
+            color: $color-gray-400;
+        }
+    }
+
+    &__searchSection {
+        align-items: center;
+        background-color: $color-white;
+        border: 1px solid $color-gray-500;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        margin: 8px 0 24px;
+        width: 100%;
+
+        &:focus-within {
+            border: 1px solid $color-gray;
+        }
+
+        &--disabled {
+            border: 1px solid $color-gray-400;
+        }
+
+        &--error {
+            border: 1px solid $color-lightred;
+        }
+    }
+
+    &__input {
+        border: 0;
+        border-radius: inherit;
+        color: $color-gray;
+        font-family: $font-family;
+        font-size: $font-size-small;
+        font-weight: $font-weight-normal;
+        line-height: calc(22 / 14);
+        padding: 13px 16px;
+        position: relative;
+        width: 100%;
+
+        &::placeholder {
+            color: $color-gray-500;
+            font-family: $font-family;
+            font-size: $font-size-small;
+            font-weight: $font-weight-normal;
+            line-height: calc(22 / 14);
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &--disabled {
+            &::placeholder {
+                color: $color-gray-400;
+            }
+        }
+    }
+
+    &__input-error-icon {
+        color: $color-lightred;
+        position: absolute;
+        right: 16px;
+    }
+
+    &--error {
+        @include tiny-uppercase;
+        bottom: 0;
+        color: $color-lightred;
+        left: 0;
+        position: absolute;
+    }
+}

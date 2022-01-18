@@ -1,0 +1,62 @@
+@import '../../styles/imports';
+
+.eatout-restaurant {
+    height: 100%;
+    width: 100%;
+
+    &__container {
+        @include layout-container;
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        padding: 48px;
+
+        @media (max-width: 1150px) {
+            gap: 36px;
+        }
+    }
+
+    &__about {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        @media (max-width: 1150px) {
+            gap: 36px;
+        }
+
+        &--grid {
+            display: grid;
+            gap: 48px;
+            grid-template-columns: 2fr 1fr;
+
+            @media (max-width: 1150px) {
+                gap: 36px;
+            }
+            @media (max-width: 767px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    &__information {
+        grid-area: 1 / span 1;
+        width: 100%;
+    }
+
+    &__location {
+        grid-area: 2 / span 1;
+        width: 100%;
+    }
+
+    &__reviews {
+        grid-area: span 2 / span 1;
+        width: 100%;
+        @media (max-width: 767px) {
+            grid-area: span 1 / span 1;
+        }
+    }
+
+    &__similar-restaurants {
+        width: 100%;
+    }
+}

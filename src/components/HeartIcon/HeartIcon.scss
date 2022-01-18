@@ -1,0 +1,16 @@
+@import '../../styles/imports';
+
+.heart-icon {
+    cursor: pointer;
+    transition: fill 0.25s ease-in-out, stroke-opacity 0.25s ease-in-out;
+
+    &--active {
+        fill: $color-lightred;
+        stroke-opacity: 0;
+    }
+
+    &:hover {
+        fill: $color-lightred;
+        stroke-opacity: 0;
+    }
+}

@@ -1,0 +1,89 @@
+@import '../../styles/imports';
+
+.auth-page {
+    align-items: center;
+    background-color: $color-gray-400;
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+
+    &__form {
+        align-items: flex-start;
+        background: $color-white;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        min-width: 325px;
+        padding: 40px 32px;
+        position: relative;
+    }
+
+    &__header {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header-title {
+        @include h2-alt;
+        color: $color-gray;
+        margin-bottom: 8px;
+    }
+
+    &__header-subtitle {
+        @include body-normal;
+        color: $color-gray;
+    }
+
+    &__fields {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 2rem 0 3rem;
+        width: 100%;
+    }
+
+    &__fields-registrationNameSection,
+    &__fields-registrationPasswordSection {
+        align-items: flex-start;
+        display: flex;
+        gap: 1.25rem;
+        justify-content: space-between;
+
+        @media screen and (max-width: 450px) {
+            flex-direction: column;
+        }
+    }
+
+    &__actionBlock {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    &__actionBlock-signUpLink {
+        @include body-normal;
+        color: $color-gray;
+    }
+
+    &__actionBlock-link {
+        color: $color-blue;
+        text-decoration: none;
+    }
+
+    &__loginError {
+        @include tiny-uppercase;
+        bottom: 106px;
+        color: $color-lightred;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+}

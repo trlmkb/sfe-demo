@@ -1,0 +1,90 @@
+@import '../../../../styles/imports';
+
+.check-in-stripe {
+    background-color: $color-layout-background;
+    border-radius: 0.3125rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    margin: 0 3rem;
+    max-width: 100%;
+    padding: 0.75rem 1rem;
+    transform: translateY(-50%);
+    @media (max-width: 1150px) {
+        margin: 0 1.5rem;
+    }
+    @media (max-width: 767px) {
+        gap: 1.5rem 0;
+        grid-template-columns: repeat(2, auto);
+        padding: 1.5rem 1rem;
+    }
+    @media (max-width: 576px) {
+        margin: 0 0.75rem;
+    }
+
+    &__actions {
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+        @media (max-width: 767px) {
+            grid-area: 2 / 1;
+        }
+    }
+
+    &__heart-icon {
+        background: transparent;
+        margin: 0 0.25rem;
+        transform: scale(1.5);
+    }
+
+    // TODO SFE21Z-54: delete &__rating style rules after reviews elment is implemented
+    &__rating {
+        align-items: center;
+        background-color: $color-lightyellow;
+        border-radius: 0.5rem;
+        display: flex;
+        height: 2.25rem;
+        justify-content: center;
+        width: 4.25rem;
+    }
+
+    &__info {
+        align-items: center;
+        color: $color-gray;
+        display: flex;
+        font-size: $font-size-small;
+        font-weight: $font-weight-bold;
+        justify-content: center;
+        line-height: calc(16 / 14);
+        text-transform: uppercase;
+        @media (max-width: 767px) {
+            grid-area: 1 / span 2;
+        }
+    }
+
+    &__check-in {
+        display: flex;
+        @media (max-width: 767px) {
+            grid-area: 2 / 2;
+        }
+    }
+
+    .btn__primary {
+        font-size: $font-size-xsmall;
+        line-height: 1;
+        padding: 0.75rem 1rem;
+        transition: background 500ms ease;
+    }
+
+    &__button--checked {
+        .btn__primary,
+        .btn__primary:hover,
+        .btn__primary:focus,
+        .btn__primary:active {
+            background: $color-mint;
+            color: $color-dark-blue;
+            font-weight: $font-weight-bold;
+        }
+    }
+}

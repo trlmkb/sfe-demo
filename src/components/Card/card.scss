@@ -1,0 +1,128 @@
+@import '../../styles/imports';
+
+.card {
+    background-color: $color-white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 12px 0;
+    width: 100%;
+
+    &__header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+
+    &__header-left {
+        align-items: center;
+        display: flex;
+    }
+
+    &__header-left-icon {
+        border-radius: 25px;
+        height: 24px;
+        margin-right: 12px;
+        overflow: hidden;
+        width: 24px;
+
+        img {
+            display: block;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+        }
+    }
+
+    &__header-left-name {
+        @include caption-uppercase;
+        color: $color-dark-blue;
+        cursor: pointer;
+        transition: color 0.25s ease;
+
+        &:hover {
+            color: $color-gray-900;
+        }
+    }
+
+    &__header-right {
+        @include caption-uppercase;
+        align-items: center;
+        color: $color-gray-900;
+        display: flex;
+    }
+
+    &__header-right-location {
+        margin-right: 8px;
+    }
+
+    &__media-content {
+        margin: 12px 0;
+        overflow: hidden;
+        position: relative;
+
+        img,
+        video {
+            display: block;
+            max-height: 405px;
+            object-fit: cover;
+            object-position: center;
+            transition: transform 0.25s ease-in-out;
+            width: 100%;
+        }
+
+        video {
+            height: 405px;
+        }
+
+        &:hover img,
+        &:hover video {
+            transform: scale(1.025);
+        }
+    }
+
+    &__play-button {
+        cursor: pointer;
+        left: 50%;
+        margin-left: -38px;
+        margin-top: -36px;
+        position: absolute;
+        top: 50%;
+
+        .play-icon {
+            transition: fill 0.25s ease;
+        }
+
+        &:hover .play-icon {
+            fill: $color-white;
+        }
+
+        &--hidden {
+            display: none;
+        }
+    }
+
+    &__action-bar {
+        align-items: center;
+        display: flex;
+        gap: 12px;
+        padding: 0 16px;
+    }
+
+    &__likes,
+    &__comments {
+        align-items: center;
+        display: flex;
+        gap: 8px;
+    }
+
+    &__likes-number,
+    &__comments-number {
+        @include caption-uppercase;
+        color: $color-gray-800;
+    }
+}

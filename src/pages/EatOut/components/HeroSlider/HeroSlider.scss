@@ -1,0 +1,58 @@
+@import '../../../../styles/imports';
+
+.hero-slider {
+    background-color: $color-white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+
+    &__slides-container {
+        display: flex;
+        transition: transform 1.25s ease-out;
+        width: 100%;
+        @media screen and (max-width: 768px) {
+            transition: transform 0.75s ease-out;
+        }
+    }
+
+    &__static-elements {
+        $_static-elements-zindex: 1;
+        align-items: center;
+        display: flex;
+        position: absolute;
+        right: 1.5rem;
+        top: 1.5rem;
+        width: 294px;
+        z-index: $_static-elements-zindex;
+        @media screen and (max-width: 768px) {
+            top: 1.5rem;
+            width: 52%;
+        }
+    }
+
+    &__paginator {
+        display: flex;
+        gap: 0.625rem;
+    }
+
+    &__paginator-bubble {
+        $_color-inactive-bubble: #c4c4c4;
+        background-color: $_color-inactive-bubble;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 0.375rem;
+        transition: background-color ease 250ms, transform ease 250ms;
+        width: 0.375rem;
+
+        &--selected {
+            background-color: $color-lightred;
+            transform: scale(calc(8 / 6));
+        }
+    }
+
+    .control-button--left {
+        margin-left: auto;
+    }
+}

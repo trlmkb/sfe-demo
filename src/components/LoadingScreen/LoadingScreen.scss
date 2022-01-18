@@ -1,0 +1,62 @@
+@import '../../styles/imports';
+
+.loading {
+    &__container {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+
+        &--full-screen {
+            height: 100vh;
+            position: fixed;
+            width: 100vw;
+            z-index: $zindex-loader;
+        }
+    }
+
+    &__screen {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 6rem;
+    }
+
+    &__bubble {
+        background-color: $color-gray-700;
+        border-radius: 50%;
+        height: 0.5rem;
+        width: 0.5rem;
+
+        &--1 {
+            animation: pulse 1.25s ease 0s infinite;
+        }
+
+        &--2 {
+            animation: pulse 1.25s ease 0.15s infinite;
+        }
+
+        &--3 {
+            animation: pulse 1.25s ease 0.3s infinite;
+        }
+
+        &--4 {
+            animation: pulse 1.25s ease 0.5s infinite;
+        }
+    }
+}
+
+@keyframes pulse {
+    from {
+        opacity: 0.8;
+    }
+
+    33% {
+        transform: translateY(-1rem) scaleY(1);
+    }
+
+    67% {
+        opacity: 0.25;
+    }
+}

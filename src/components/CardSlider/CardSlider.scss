@@ -1,0 +1,60 @@
+@import '../../styles/imports';
+
+.card-slider {
+    $_cards-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    &__static-elements {
+        align-items: center;
+        display: flex;
+    }
+
+    &__heading {
+        @include h2-alt;
+        color: $color-gray;
+    }
+
+    .control-button--left {
+        margin-left: auto;
+    }
+
+    &__cards-container {
+        display: flex;
+        gap: $_cards-gap;
+        margin: -0.75rem;
+        overflow: scroll;
+        /* stylelint-disable-next-line property-no-vendor-prefix */
+        -ms-overflow-style: none;
+        padding: 0.75rem;
+        scroll-behavior: smooth;
+        scroll-padding: 0.75rem;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+
+        @media screen and (min-width: 1100px) {
+            gap: $_cards-gap * 2;
+        }
+
+        /* stylelint-disable-next-line property-no-vendor-prefix */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .r-card--expanded {
+            @include cards-per-slide(1, 0);
+            height: 477px;
+            max-width: 500px;
+            scroll-snap-align: start;
+
+            @media screen and (min-width: 600px) {
+                @include cards-per-slide(2, $_cards-gap);
+            }
+
+            @media screen and (min-width: 1100px) {
+                @include cards-per-slide(3, $_cards-gap * 2);
+            }
+        }
+    }
+}

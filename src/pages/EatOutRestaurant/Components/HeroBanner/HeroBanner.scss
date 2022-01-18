@@ -1,0 +1,96 @@
+@import '../../../../styles/imports';
+
+.hero-banner {
+    height: #{'clamp(350px, 60vh, 540px)'};
+    margin: 0 auto 30px;
+    position: relative;
+    width: #{'min(100%, 1440px)'};
+
+    @media (max-width: 767px) {
+        margin: 0 auto 62px;
+    }
+
+    &__image {
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        opacity: 0.7;
+        position: absolute;
+        width: 100%;
+    }
+
+    &__image-filter {
+        background: linear-gradient(
+            89.13deg,
+            #f6f7f8 0.75%,
+            rgba(246, 247, 248, 0) 51.08%,
+            #f6f7f8 99.25%
+        );
+        height: 100%;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        padding: 1.5rem 3rem 4.5rem;
+        position: relative;
+
+        @media (max-width: 1150px) {
+            padding: 1.5rem 1.5rem 4.5rem;
+        }
+
+        @media (max-width: 576px) {
+            padding: 1rem 1rem 4.5rem;
+        }
+    }
+
+    &__categories {
+        display: flex;
+        gap: 0.75rem;
+        list-style: none;
+        padding-bottom: 0.75rem;
+    }
+
+    &__category {
+        background-color: $color-dark-blue;
+        border-radius: 0.5rem;
+        color: $color-white;
+        font-size: $font-size-xsmall;
+        font-weight: $font-weight-medium;
+        line-height: 1;
+        padding: 0.5rem 0.75rem;
+    }
+
+    &__title {
+        $_title-size: 3rem;
+        color: $color-dark-blue;
+        font-size: $_title-size;
+        font-weight: $font-weight-bold;
+        line-height: calc(56 / 48);
+        @media (max-width: 576px) {
+            $_title-size: 2rem;
+            font-size: $_title-size;
+        }
+    }
+
+    .breadcrumbs {
+        &__link {
+            color: $color-gray-900;
+
+            &:hover {
+                $_link-on-hover: darken($color-gray-900, 30%);
+                color: $_link-on-hover;
+            }
+        }
+
+        &__current-page {
+            color: $color-dark-blue;
+        }
+
+        path {
+            stroke: $color-gray-900;
+        }
+    }
+}

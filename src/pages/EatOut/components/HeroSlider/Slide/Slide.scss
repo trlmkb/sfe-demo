@@ -1,0 +1,102 @@
+@import '../../../../../styles/imports';
+
+.slide {
+    display: flex;
+    min-width: 100%;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    &__image {
+        background-position: center;
+        background-size: cover;
+        border-radius: 0.5rem 0 0 0.5rem;
+        height: 316px;
+        width: 100%;
+        @media screen and (max-width: 768px) {
+            border-radius: 0.5rem 0.5rem 0 0;
+            height: 240px;
+        }
+    }
+
+    &__image-filter {
+        background: linear-gradient(
+            270deg,
+            $color-white -0.71%,
+            rgba(255, 255, 255, 0) 99.41%
+        );
+        height: 100%;
+        @media screen and (max-width: 768px) {
+            background: linear-gradient(
+                0deg,
+                $color-white -0.71%,
+                rgba(255, 255, 255, 0) 99.41%
+            );
+        }
+    }
+
+    &__info-box {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: space-between;
+        margin: 4rem 1.5rem 1.5rem 0.5rem;
+        max-width: 294px;
+        width: 100%;
+        @media screen and (max-width: 768px) {
+            margin: 0;
+            max-width: 100%;
+            padding: 1.5rem;
+        }
+    }
+
+    &__title {
+        h2 {
+            @include h2-regular;
+            color: $color-dark-blue;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+
+    &__slogan {
+        @include tiny-uppercase;
+        color: $color-lightred;
+        padding-bottom: 0.125rem;
+    }
+
+    &__description {
+        @include body-normal;
+        @include text-shorten(4);
+        color: $color-gray-900;
+        margin-bottom: auto;
+    }
+
+    &__link {
+        align-self: flex-start;
+        @media screen and (max-width: 768px) {
+            align-self: center;
+        }
+    }
+
+    .btn__primary {
+        background: $color-lightred;
+        cursor: pointer;
+        line-height: calc(24 / 14);
+        transition: background 250ms ease;
+
+        &:hover,
+        &:focus {
+            background: lighten($color-lightred, 5%);
+        }
+
+        &:active {
+            background: darken($color-lightred, 40%);
+        }
+        @media screen and (max-width: 768px) {
+            margin: 0 auto;
+        }
+    }
+}

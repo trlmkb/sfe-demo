@@ -27,9 +27,7 @@ export const EatOutCategoriesPage = () => {
   useEffect(() => {
     const getRestaurants = async () => {
       try {
-        const response = await axios.get(
-          "/api/restaurants.json"
-        );
+        const response = await axios.get("/api/restaurants.json");
         setRestaurants(response.data.restaurants);
       } catch (e) {
         setErrorMessage(e);

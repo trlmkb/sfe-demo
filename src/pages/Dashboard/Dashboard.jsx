@@ -24,9 +24,7 @@ export const Dashboard = () => {
   useEffect(() => {
     const getDashboardData = async () => {
       try {
-        const restaurantsDataFetch = await axios.get(
-          "/api/restaurants.json"
-        );
+        const restaurantsDataFetch = await axios.get("/api/restaurants.json");
         setDashboardData(restaurantsDataFetch.data.restaurants);
       } catch (error) {
         setDashboardDataError(true);

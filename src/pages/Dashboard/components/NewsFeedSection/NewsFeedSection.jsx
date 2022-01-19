@@ -12,8 +12,7 @@ import "./newsFeedSection.scss";
 
 export const NewsFeedSection = () => {
   const pageIncrement = 6;
-  const storiesUrl =
-    "/api/stories.json";
+  const storiesUrl = "/api/stories.json";
   const breakpointColumnsObj = {
     default: 3,
     1150: 2,

@@ -19,9 +19,7 @@ export const UserProvider = ({ children }) => {
   useEffect(() => {
     const getUserData = async () => {
       try {
-        const userDataFetch = await axios.get(
-          "/api/userData.json"
-        );
+        const userDataFetch = await axios.get("/api/userData.json");
         setUserData({ ...userData, ...userDataFetch.data.userData[0] });
       } catch (error) {
         setUserDataError(true);

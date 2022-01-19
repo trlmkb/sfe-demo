@@ -12,7 +12,7 @@ import { UserContext } from "../../features/UserContext";
 import "./eatout.scss";
 import { EatOutCategories } from "../EatOut/components/EatOutCategories";
 import { motion } from "framer-motion";
-import { fromToptoBottomAnimation } from "../../animations";
+import { container, fromToptoBottomAnimation } from "../../animations";
 import { ErrorScreen } from "components/ErrorScreen/ErrorScreen";
 const dbPath = "/api";
 
@@ -82,45 +82,35 @@ export const EatOut = () => {
 
   return (
     <Layout>
-      <article className="eatout">
+      <motion.article
+        className="eatout"
+        variants={container}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+      >
         <div className="eatout__container">
-          <motion.div
+          <motion.section
             className="eatout__heading"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 0.7, duration: 0.5 }}
             variants={fromToptoBottomAnimation}
           >
             <Breadcrumbs />
             <h1>Hungry? Find the best place!</h1>
-          </motion.div>
+          </motion.section>
           <motion.section
             className="eatout__hero-slider"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 0.9, duration: 0.5 }}
             variants={fromToptoBottomAnimation}
           >
             <HeroSlider restaurants={randomRestaurants} />
           </motion.section>
           <motion.section
             className="eatout__categories"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 1.1, duration: 0.5 }}
             variants={fromToptoBottomAnimation}
           >
             <EatOutCategories restaurants={restaurants} />
           </motion.section>
           <motion.section
             className="eatout__near-you"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 1.3, duration: 0.5 }}
             variants={fromToptoBottomAnimation}
           >
             <CardSlider
@@ -130,10 +120,6 @@ export const EatOut = () => {
           </motion.section>
           <motion.section
             className="eatout__new-places"
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 1.5, duration: 0.5 }}
             variants={fromToptoBottomAnimation}
           >
             <CardSlider
@@ -142,7 +128,7 @@ export const EatOut = () => {
             />
           </motion.section>
         </div>
-      </article>
+      </motion.article>
     </Layout>
   );
 };

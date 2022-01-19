@@ -22,7 +22,6 @@ export const BdayCard = ({ storyData }) => {
   const [commentIconActive, setCommentIconActive] = useState(false);
   const [showComments, setShowComments] = useState(false);
   const [commentList, setCommentList] = useState(storyData.comments);
-
   useEffect(() => {
     checkLocalStorage("savedBirthdays", storyData, setIsGiftIconActive);
     // eslint-disable-next-line
@@ -63,7 +62,7 @@ export const BdayCard = ({ storyData }) => {
         <img
           className="bday-card__img"
           src={storyData.userImage}
-          alt="user-img"
+          alt={` of ${storyData.userName}`}
         />
       </div>
       <div className="bday-card__main">
@@ -96,20 +95,33 @@ export const BdayCard = ({ storyData }) => {
         <div className="bday-card__main__divider"></div>
         <div className="bday-card__main__action">
           <motion.div className="bday-card__gift" whileTap={{ scale: 0.95 }}>
-            <button onClick={handleGiftIconClick}>
-              <GiftIcon active={isGiftIconActive} />
+            <button
+              className="bday-card__button"
+              aria-label={`send a wish ${
+                isGiftIconActive ? `clicked` : "not clicked"
+              }`}
+              onClick={handleGiftIconClick}
+            >
+              <GiftIcon aria-hidden="true" active={isGiftIconActive} />
             </button>
             <div className="bday-card__numbers">{wishes}</div>
           </motion.div>
           <motion.div className="bday-card__comment" whileTap={{ scale: 0.95 }}>
-            <button onClick={handleCommentIconClick}>
-              <CommentIcon active={commentIconActive} />
+            <button
+              className="bday-card__button"
+              aria-controls="comments"
+              aria-expanded={commentIconActive}
+              aria-label="open comments"
+              onClick={handleCommentIconClick}
+            >
+              <CommentIcon aria-hidden="true" active={commentIconActive} />
             </button>
             <div className="bday-card__numbers">{commentList.length}</div>
           </motion.div>
         </div>
         {showComments && (
           <Comments
+            id="comments"
             commentsList={commentList}
             setCommentList={setCommentList}
           />

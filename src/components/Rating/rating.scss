@@ -1,0 +1,55 @@
+@import '../../styles/imports';
+
+.rating {
+    @include info-text;
+    align-items: center;
+    background: $color-lightyellow;
+    border-radius: 8px;
+    color: $color-lightgray;
+    display: inline-flex;
+    justify-content: center;
+    padding: 8px 12px;
+
+    &:focus-visible {
+        outline: 2px dashed $color-lightgray;
+    }
+
+    &__star {
+        fill: $color-lightgray;
+        height: 20px;
+        stroke-opacity: 0;
+
+        &:focus {
+            stroke-opacity: 50%;
+        }
+
+        &:hover {
+            cursor: pointer;
+            stroke-opacity: 50%;
+        }
+
+        &--off {
+            fill: $color-white;
+            opacity: 50%;
+        }
+
+        &--rated {
+            filter: brightness(180%);
+        }
+    }
+
+    &__star-button {
+        background: none;
+        outline: none;
+
+        &:focus-visible {
+            outline: 2px dashed $color-lightgray;
+        }
+    }
+}
+
+.rating--expanded {
+    /* stylelint-disable-next-line scss/at-extend-no-missing-placeholder */
+    @extend .rating;
+    z-index: $zindex-dropdown;
+}

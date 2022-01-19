@@ -5,7 +5,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
+
+    &:hover img {
+        transform: scale(1.025);
+    }
 
     &__profile {
         height: 96px;
@@ -19,6 +23,7 @@
         display: block;
         height: 100%;
         object-fit: cover;
+        transition: transform 0.25s ease-in-out;
         width: 100%;
     }
 
@@ -49,6 +54,12 @@
 
         &--name-uppercase {
             @include caption-uppercase;
+            cursor: pointer;
+            transition: color 0.25s ease;
+
+            &:hover {
+                color: $color-gray-900;
+            }
         }
     }
 
@@ -60,6 +71,12 @@
     &__comment {
         align-items: center;
         display: flex;
+    }
+
+    &__button {
+        &:focus-visible {
+            outline: dashed 2px $color-dark-blue;
+        }
     }
 
     &__numbers {

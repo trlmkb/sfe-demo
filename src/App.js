@@ -91,7 +91,14 @@ export function App() {
             }
           />
           {/* 404 page error */}
-          <Route path="*" element={<NotFound />} />
+          <Route
+            path="*"
+            element={
+              <ProtectedRoute isLogInRequired>
+                <NotFound />
+              </ProtectedRoute>
+            }
+          />
         </Routes>
       </AnimatePresence>
       {userData.isLogged && <Footer />}

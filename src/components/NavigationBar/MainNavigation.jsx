@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export const MainNavigation = () => {
   return (
-    <>
+    <ul>
       <li className="navBar__menu__Item">
         <Link className="navBar__menu__link" to="/">
           <DashboardIcon className="navBar__menu__icon" />
@@ -25,6 +25,6 @@ export const MainNavigation = () => {
           Eat-Out
         </Link>
       </li>
-    </>
+    </ul>
   );
 };

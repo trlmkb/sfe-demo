@@ -11,7 +11,7 @@ import { ErrorScreen } from "components/ErrorScreen/ErrorScreen";
 import { NewsFeedSection } from "./components/NewsFeedSection";
 import "./dashboard.scss";
 import { motion } from "framer-motion";
-import { fromToptoBottomAnimation } from "../../animations";
+import { container, fromToptoBottomAnimation } from "../../animations";
 
 export const Dashboard = () => {
   const { userDataLoading, userDataError, userDataErrorMsg } =
@@ -58,50 +58,32 @@ export const Dashboard = () => {
 
   return (
     <Layout>
-      <article className="dashboard">
+      <motion.article
+        className="dashboard"
+        variants={container}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+      >
         <div className="dashboard__container">
-          <motion.section
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 0.7, duration: 0.5 }}
-            variants={fromToptoBottomAnimation}
-          >
+          <motion.section variants={fromToptoBottomAnimation}>
             <Greetings />
           </motion.section>
-          <motion.section
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 0.9, duration: 0.5 }}
-            variants={fromToptoBottomAnimation}
-          >
+          <motion.section variants={fromToptoBottomAnimation}>
             <Reservations />
           </motion.section>
-          <motion.section
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 1.1, duration: 0.5 }}
-            variants={fromToptoBottomAnimation}
-          >
+          <motion.section variants={fromToptoBottomAnimation}>
             <EatOutSection
               restaurants={dashboardData}
               dataError={dashboardDataError}
               dataErrorMsg={dashboardDataErrorMsg}
             />
           </motion.section>
-          <motion.section
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 1.3, duration: 0.5 }}
-            variants={fromToptoBottomAnimation}
-          >
+          <motion.section variants={fromToptoBottomAnimation}>
             <NewsFeedSection />
           </motion.section>
         </div>
-      </article>
+      </motion.article>
     </Layout>
   );
 };

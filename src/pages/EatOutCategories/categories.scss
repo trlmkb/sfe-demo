@@ -6,10 +6,9 @@
 
     &__container {
         @include layout-container;
-        align-items: center;
+        align-items: flex-start;
         display: flex;
         flex-direction: column;
-        padding: 48px;
     }
 
     &__breadcrumbs {
@@ -21,21 +20,30 @@
         align-self: start;
         color: $color-gray;
         margin-bottom: 72px;
+
+        @include respond-to('tablet') {
+            margin-bottom: 36px;
+        }
+
+        @include respond-to('mobile') {
+            margin-bottom: 18px;
+        }
     }
 
     &__grid {
         display: grid;
         gap: 32px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 477px;
+        grid-template-columns: repeat(3, calc((100% - 32px * 2) / 3));
         width: 100%;
 
         @include respond-to('tablet') {
             gap: 24px;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(2, calc((100% - 24px) / 2));
         }
         @include respond-to('mobile') {
             gap: 16px;
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(1, 100%);
         }
     }
 }

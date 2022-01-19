@@ -12,6 +12,7 @@
     }
 
     &__masonry-grid {
+        align-items: flex-start;
         column-gap: 48px;
         /* stylelint-disable-next-line value-no-vendor-prefix */
         display: -webkit-box;
@@ -21,8 +22,8 @@
         margin-top: 24px;
         width: auto;
 
-        @media (max-width: 850px) {
-            column-gap: 24px;
+        @include respond-to('tablet') {
+            gap: 24px;
         }
     }
 
@@ -31,8 +32,16 @@
     }
 
     &__item {
+        display: flex;
         margin-bottom: 48px;
         position: relative;
+        @include respond-to('tablet') {
+            margin-bottom: 24px;
+        }
+
+        &--hidden {
+            display: none;
+        }
     }
 
     &__footer {

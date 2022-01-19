@@ -1,21 +1,12 @@
 import React from "react";
 import { PropTypes } from "prop-types";
 import { Breadcrumbs } from "components/Breadcrumbs";
-import { motion } from "framer-motion";
-import { fromToptoBottomAnimation } from "../../../../animations";
 import "./HeroBanner.scss";
 import { CheckInStripe } from "../CheckInStripe";
 
 export const HeroBanner = ({ restaurant }) => {
   return (
-    <motion.div
-      className="hero-banner"
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      transition={{ delay: 0.7, duration: 0.5 }}
-      variants={fromToptoBottomAnimation}
-    >
+    <div className="hero-banner">
       <div
         className="hero-banner__image"
         style={{ backgroundImage: `url(${restaurant.image})` }}
@@ -36,7 +27,7 @@ export const HeroBanner = ({ restaurant }) => {
         </div>
       </div>
       <CheckInStripe restaurant={restaurant} />
-    </motion.div>
+    </div>
   );
 };
 

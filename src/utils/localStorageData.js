@@ -33,3 +33,15 @@ export const removeLocalStorage = (savedDataArray, dataObject) => {
     })
   );
 };
+
+export const checkLocalStorageRestaurant = (savedDataArray, dataObject) => {
+  const localStorageData = JSON.parse(localStorage.getItem(localStorageKey));
+  const savedData = localStorageData[savedDataArray];
+  const storyIsSaved = savedData.find((data) => {
+    if (data.id === dataObject.id) {
+      return data;
+    }
+    return null;
+  });
+  return storyIsSaved;
+};

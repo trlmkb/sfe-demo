@@ -19,7 +19,6 @@ export const Card = ({ storyData }) => {
   const [commentIconActive, setCommentIconActive] = useState(false);
   const [showComments, setShowComments] = useState(false);
   const [commentList, setCommentList] = useState(storyData.comments);
-
   useEffect(() => {
     checkLocalStorage("savedStories", storyData, setHeartIconActive);
     // eslint-disable-next-line
@@ -83,7 +82,7 @@ export const Card = ({ storyData }) => {
       <div className="card__header">
         <div className="card__header-left">
           <div className="card__header-left-icon">
-            <img src={storyData.userImage} alt="user-icon" />
+            <img src={storyData.userImage} alt={`of ${storyData.userName}`} />
           </div>
           <div className="card__header-left-name">{storyData.userName}</div>
         </div>
@@ -105,33 +104,52 @@ export const Card = ({ storyData }) => {
             <track kind="captions" />
             Your browser does not support the video tag.
           </video>
-          <PlayButton
-            className="card__play-button"
+          <button
+            aria-label="play video"
             ref={videoButtonRef}
+            className="card__play-button"
             onClick={handleVideoPlay}
-          />
+          >
+            <PlayButton aria-hidden="true" />
+          </button>
         </div>
       ) : (
         <div className="card__media-content">
-          <img src={storyData.postImage} alt="card-img-content" />
+          <img src={storyData.postImage} alt="of content" />
         </div>
       )}
       <div className="card__action-bar">
         <motion.div className="card__likes" whileTap={{ scale: 0.95 }}>
-          <button onClick={handleHeartIconClick}>
-            <HeartIcon active={heartIconActive} />
+          <button
+            className="card__button"
+            aria-label={`add to favorites ${
+              heartIconActive ? `clicked` : "not clicked"
+            }`}
+            onClick={handleHeartIconClick}
+          >
+            <HeartIcon aria-hidden="true" active={heartIconActive} />
           </button>
           <div className="card__likes-number">{likes}</div>
         </motion.div>
         <motion.div className="card__comments" whileTap={{ scale: 0.95 }}>
-          <button onClick={handleCommentIconClick}>
-            <CommentIcon active={commentIconActive} />
+          <button
+            className="card__button"
+            aria-controls="comments"
+            aria-expanded={commentIconActive}
+            aria-label="open comments"
+            onClick={handleCommentIconClick}
+          >
+            <CommentIcon aria-hidden="true" active={commentIconActive} />
           </button>
           <div className="card__comments-number">{commentList.length}</div>
         </motion.div>
       </div>
       {showComments && (
-        <Comments commentsList={commentList} setCommentList={setCommentList} />
+        <Comments
+          id="comments"
+          commentsList={commentList}
+          setCommentList={setCommentList}
+        />
       )}
     </div>
   );

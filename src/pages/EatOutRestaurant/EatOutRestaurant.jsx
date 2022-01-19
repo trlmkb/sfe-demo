@@ -8,7 +8,7 @@ import { Layout } from "components/Layout";
 import { HeroBanner } from "./Components/HeroBanner";
 import { ReviewsSection } from "./Components/ReviewsSection";
 import { motion } from "framer-motion";
-import { fromToptoBottomAnimation } from "../../animations";
+import { container, fromToptoBottomAnimation } from "../../animations";
 import "./EatOutRestaurant.scss";
 import { RestaurantInfo } from "./Components/RestaurantInfo/RestaurantInfo";
 import { RestaurantLocation } from "./Components/RestaurantLocation/RestaurantLocation";
@@ -71,8 +71,16 @@ export const EatOutRestaurant = () => {
 
   return (
     <Layout>
-      <article className="eatout-restaurant">
-        <HeroBanner restaurant={thisRestaurant} />
+      <motion.article
+        className="eatout-restaurant"
+        variants={container}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+      >
+        <motion.section variants={fromToptoBottomAnimation}>
+          <HeroBanner restaurant={thisRestaurant} />
+        </motion.section>
         <div className="eatout-restaurant__container">
           <div
             className={classNames("eatout-restaurant__about", {
@@ -82,20 +90,12 @@ export const EatOutRestaurant = () => {
           >
             <motion.section
               className="eatout-restaurant__information"
-              initial="initial"
-              animate="animate"
-              exit="exit"
-              transition={{ delay: 0.9, duration: 0.5 }}
               variants={fromToptoBottomAnimation}
             >
               <RestaurantInfo restaurant={thisRestaurant} />
             </motion.section>
             <motion.section
               className="eatout-restaurant__location"
-              initial="initial"
-              animate="animate"
-              exit="exit"
-              transition={{ delay: 1.1, duration: 0.5 }}
               variants={fromToptoBottomAnimation}
             >
               <RestaurantLocation restaurant={thisRestaurant} />
@@ -104,10 +104,6 @@ export const EatOutRestaurant = () => {
               <motion.section
                 className="eatout-restaurant__reviews"
                 restaurant={thisRestaurant}
-                initial="initial"
-                animate="animate"
-                exit="exit"
-                transition={{ delay: 1.1, duration: 0.5 }}
                 variants={fromToptoBottomAnimation}
               >
                 <ReviewsSection reviews={thisRestaurant.reviews} />
@@ -119,10 +115,6 @@ export const EatOutRestaurant = () => {
             restaurants={restaurants}
             restaurant={thisRestaurant}
             categories={categories}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ delay: 1.3, duration: 0.5 }}
             variants={fromToptoBottomAnimation}
           >
             <CardSlider
@@ -131,7 +123,7 @@ export const EatOutRestaurant = () => {
             />
           </motion.section>
         </div>
-      </article>
+      </motion.article>
     </Layout>
   );
 };

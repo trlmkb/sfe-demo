@@ -31,11 +31,11 @@
         @media (min-width: 600px) and (max-width: 768px) {
             grid-column-gap: 24px;
         }
-    }
-    @media (max-width: 600px) {
-        &__grid-container {
+
+        @media (max-width: 600px) {
             grid-row-gap: 48px;
             grid-template-columns: repeat(1, 1fr);
+            margin-bottom: 18px;
         }
     }
 }

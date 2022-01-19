@@ -32,6 +32,18 @@ export const fromRightAnimation = {
   },
 };
 
+export const container = {
+  initial: { opacity: 0 },
+  animate: {
+    opacity: 1,
+    transition: {
+      delayChildren: 0.2,
+      staggerChildren: 0.2,
+    },
+  },
+  exit: { opacity: 0 },
+};
+
 export const fromToptoBottomAnimation = {
   initial: {
     opacity: 0,
@@ -40,10 +52,16 @@ export const fromToptoBottomAnimation = {
   animate: {
     opacity: 1,
     y: 0,
+    transition: {
+      duration: 0.5,
+    },
   },
   exit: {
     opacity: 0,
-    y: 50,
+    y: 20,
+    transition: {
+      duration: 0.3,
+    },
   },
 };
 

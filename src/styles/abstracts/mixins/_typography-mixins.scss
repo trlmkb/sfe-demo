@@ -109,3 +109,10 @@
     font-weight: $font-weight-normal;
     line-height: calc(16 / 12);
 }
+
+@mixin info-text {
+    font-size: $font-size-small;
+    font-weight: $font-weight-bold;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+}

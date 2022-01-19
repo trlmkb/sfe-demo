@@ -78,11 +78,6 @@
         video {
             height: 405px;
         }
-
-        &:hover img,
-        &:hover video {
-            transform: scale(1.025);
-        }
     }
 
     &__play-button {
@@ -92,6 +87,10 @@
         margin-top: -36px;
         position: absolute;
         top: 50%;
+
+        &:focus-visible {
+            outline: dashed 2px $color-white;
+        }
 
         .play-icon {
             transition: fill 0.25s ease;
@@ -103,6 +102,12 @@
 
         &--hidden {
             display: none;
+        }
+    }
+
+    &__button {
+        &:focus-visible {
+            outline: dashed 2px $color-dark-blue;
         }
     }
 
@@ -124,5 +129,10 @@
     &__comments-number {
         @include caption-uppercase;
         color: $color-gray-800;
+    }
+
+    &:hover img,
+    &:hover video {
+        transform: scale(1.025);
     }
 }

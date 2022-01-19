@@ -17,10 +17,8 @@
     @media (max-width: 767px) {
         gap: 1.5rem 0;
         grid-template-columns: repeat(2, auto);
-        padding: 1.5rem 1rem;
-    }
-    @media (max-width: 576px) {
         margin: 0 0.75rem;
+        padding: 1.5rem 1rem;
     }
 
     &__actions {
@@ -41,8 +39,6 @@
     // TODO SFE21Z-54: delete &__rating style rules after reviews elment is implemented
     &__rating {
         align-items: center;
-        background-color: $color-lightyellow;
-        border-radius: 0.5rem;
         display: flex;
         height: 2.25rem;
         justify-content: center;

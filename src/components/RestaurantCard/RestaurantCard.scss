@@ -7,17 +7,15 @@
     filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.25));
     max-height: 230px;
     min-width: 250px;
+    overflow: hidden;
     width: 100%;
 
     &--expanded {
-        background: $color-white;
-        border-radius: 8px;
         display: flex;
-        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.25));
         flex: 1;
         flex-direction: column;
-        min-height: 400px;
-        overflow: hidden;
+        height: 100%;
+        max-height: 477px;
         width: 100%;
     }
 
@@ -27,6 +25,11 @@
         border-radius: 8px 8px 0 0;
         display: flex;
         height: 180px;
+        transition: height 0.5s ease-in;
+
+        &--short {
+            height: 65px;
+        }
     }
 
     &__gradient {
@@ -35,63 +38,59 @@
             rgba(255, 255, 255, 0) 0%,
             #fff 100%
         );
+        height: 181px;
+        transition: height 0.5s ease-in;
         width: 100%;
+
+        &--short {
+            height: 66px;
+        }
     }
 
     &__rating-row {
         display: inline-flex;
+        justify-content: space-between;
         padding: 16px;
-        width: inherit;
+        width: 100%;
     }
 
-    &__check-in {
+    &__check-in-button {
+        @include info-text;
+        align-items: center;
         background: $color-lightgray;
         border-radius: 8px;
         color: $color-lightyellow;
-        display: flex;
-        font-size: $font-size-small;
-        font-weight: $font-weight-bold;
-        height: 32px;
+        display: inline-flex;
+        height: 2.25rem;
         justify-content: center;
+        padding: 8px 12px;
         text-decoration: none;
-        width: 65px;
+        transition: background 500ms ease;
+        width: 4.25rem;
+
+        &--checked {
+            background: $color-dark-blue;
+            filter: contrast(200%);
+        }
 
         &:hover {
-            background-color: darken($color-lightgray, 20%);
-            transition: all 250ms ease-in-out;
+            background: $color-dark-blue;
+            filter: contrast(200%);
         }
-
-        &--hidden {
-            display: none;
-        }
-    }
-
-    &__check-wrapper {
-        align-items: center;
-        display: flex;
     }
 
     &__person {
         fill: $color-lightyellow;
         height: 20px;
-        stroke-opacity: 00%;
+        stroke-opacity: 0;
     }
 
     &__rating {
-        color: $color-lightgray;
-        font-weight: $font-weight-bold;
-        margin-left: auto;
-    }
-
-    &__rating-wrapper {
         align-items: center;
-        background: $color-lightyellow;
-        border-radius: 8px;
-        display: inline-flex;
-        font-size: $font-size-small;
-        height: 32px;
+        display: flex;
+        height: 2.25rem;
         justify-content: center;
-        width: 65px;
+        width: 4.25rem;
     }
 
     &__star {
@@ -104,6 +103,7 @@
         display: flex;
         flex-direction: column;
         margin: -20px 16px 16px;
+        z-index: $zindex-medium;
 
         &--expanded {
             margin: 0 16px 16px;
@@ -115,6 +115,7 @@
         display: flex;
         font-size: $font-size-xxsmall;
         text-transform: uppercase;
+        z-index: $zindex-medium;
     }
 
     &__category:last-child span:last-child {
@@ -128,6 +129,8 @@
     &__content-row {
         align-items: center;
         display: flex;
+        justify-content: space-between;
+        z-index: $zindex-medium;
     }
 
     &__title {
@@ -150,41 +153,10 @@
         text-decoration: none;
     }
 
-    &__heart-container {
-        margin-left: auto;
-    }
-
-    &__heart {
-        stroke: $color-gray;
-        stroke-opacity: 100%;
-
-        &:hover {
-            stroke-opacity: 50%;
-            transition: all 250ms ease-in-out;
-        }
-
-        &--clicked {
-            fill: $color-lightred;
-            stroke-opacity: 0%;
-
-            &:hover {
-                stroke-opacity: 20%;
-                transition: all 250ms ease-in-out;
-            }
-        }
-    }
-
     &__time {
         color: $color-gray-900;
-        font-size: $font-size-xxsmall;
-    }
-
-    &__hours {
         display: inline-flex;
-
-        &:last-child span:last-child {
-            display: none;
-        }
+        font-size: $font-size-xxsmall;
     }
 
     &__expanded-section {
@@ -192,6 +164,7 @@
         display: flex;
         flex-direction: column;
         font-size: $font-size-normal;
+        z-index: $zindex-medium;
 
         &--hidden {
             display: none;
@@ -221,26 +194,23 @@
 
     &__description {
         @include text-shorten(3);
-        height: 100%;
         line-height: 1.5;
-        min-height: 72px;
 
         &--more {
             display: flex;
-            height: 100%;
-            line-height: 1.5;
-            min-height: 72px;
         }
     }
 
     &__button-row {
         align-items: center;
+        bottom: 0;
         display: flex;
-        flex: 1;
         flex-direction: row-reverse;
-        justify-content: flex-start;
         margin-right: 16px;
         padding-bottom: 24px;
+        position: absolute;
+        right: 0;
+        z-index: $zindex-popover;
 
         &--hidden {
             display: none;
@@ -257,6 +227,32 @@
         &:hover {
             color: lighten($color-gray, 20%);
             transition: all 250ms ease-in-out;
+        }
+    }
+
+    &__spacer {
+        margin-left: 3px;
+
+        &--wider {
+            margin-left: 5px;
+        }
+    }
+
+    .btn__primary {
+        font-size: $font-size-xsmall;
+        line-height: 1;
+        padding: 0.75rem 1rem;
+        transition: background 500ms ease;
+    }
+
+    &__button--checked {
+        .btn__primary,
+        .btn__primary:hover,
+        .btn__primary:focus,
+        .btn__primary:active {
+            background: $color-mint;
+            color: $color-dark-blue;
+            font-weight: $font-weight-bold;
         }
     }
 }

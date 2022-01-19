@@ -3,7 +3,11 @@ import PropTypes from "prop-types";
 import "./Layout.scss";
 
 export const Layout = ({ children }) => {
-  return <main className="layout">{children}</main>;
+  return (
+    <main id="main" className="layout">
+      {children}
+    </main>
+  );
 };
 
 Layout.propTypes = {

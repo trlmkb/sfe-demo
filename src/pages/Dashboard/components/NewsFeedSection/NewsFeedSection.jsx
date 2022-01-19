@@ -3,11 +3,9 @@ import axios from "axios";
 import Masonry from "react-masonry-css";
 
 import { LoadingScreen } from "components/LoadingScreen/LoadingScreen";
-
 import { Button } from "components/Button/Button";
 import { Card } from "components/Card/Card";
 import { BdayCard } from "components/BdayCard/BdayCard";
-
 import "./newsFeedSection.scss";
 
 export const NewsFeedSection = () => {
@@ -25,6 +23,10 @@ export const NewsFeedSection = () => {
   const [hasMore, setHasMore] = useState(true);
   const [stories, setStories] = useState([]);
   const [error, setError] = useState();
+  const problem = document.getElementById("10187tep27");
+  if (problem) {
+    problem.className = "news__item--hidden";
+  }
 
   const loadMore = async () => {
     setIsFetching(true);
@@ -63,22 +65,10 @@ export const NewsFeedSection = () => {
       >
         {stories.map((story) => {
           return (
-            <div className="news__item" key={story.id}>
-              {story.type === "post" && (
-                <div className="news__item--post">
-                  <Card storyData={story} />
-                </div>
-              )}
-              {story.type === "birthday" && (
-                <div className="news__item--birthday">
-                  <BdayCard storyData={story} />
-                </div>
-              )}
-              {story.type === "video" && (
-                <div className="news__item--video">
-                  <Card storyData={story} />
-                </div>
-              )}
+            <div className="news__item" key={story.id} id={story.id}>
+              {story.type === "post" && <Card storyData={story} />}
+              {story.type === "birthday" && <BdayCard storyData={story} />}
+              {story.type === "video" && <Card storyData={story} />}
             </div>
           );
         })}

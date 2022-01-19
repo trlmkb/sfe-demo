@@ -13,6 +13,9 @@ import { Layout } from "components/Layout";
 import "./categories.scss";
 import { RestaurantCard } from "components/RestaurantCard/RestaurantCard";
 
+import { motion } from "framer-motion";
+import { container, fromToptoBottomAnimation } from "../../animations";
+
 export const EatOutCategoriesPage = () => {
   const [restaurants, setRestaurants] = useState([]);
   const [categoriesDataLoading, setCategoriesDataLoading] = useState(true);
@@ -62,31 +65,40 @@ export const EatOutCategoriesPage = () => {
 
   return (
     <Layout>
-      <article className="eat-out-categories">
-        <section className="eat-out-categories__container">
-          <div className="eat-out-categories__breadcrumbs">
-            <Breadcrumbs />
-          </div>
-          <h1 className="eat-out-categories__title">
-            The best places for the {id.toUpperCase()}!
-          </h1>
+      <motion.article
+        className="eat-out-categories"
+        variants={container}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+      >
+        <div className="eat-out-categories__container">
+          <motion.section variants={fromToptoBottomAnimation}>
+            <div className="eat-out-categories__breadcrumbs">
+              <Breadcrumbs />
+            </div>
+            <h1 className="eat-out-categories__title">
+              The best places for the {id.toUpperCase()}!
+            </h1>
+          </motion.section>
           <div className="eat-out-categories__grid">
             {restaurants
               .filter((restaurant) => restaurant.categories.includes(id))
               .map((filteredRestaurant) => (
-                <div
+                <motion.div
                   className="eat-out-categories__item"
                   key={filteredRestaurant.name}
+                  variants={fromToptoBottomAnimation}
                 >
                   <RestaurantCard
                     expanded={true}
                     restaurant={filteredRestaurant}
                   />
-                </div>
+                </motion.div>
               ))}
           </div>
-        </section>
-      </article>
+        </div>
+      </motion.article>
     </Layout>
   );
 };

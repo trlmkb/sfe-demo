@@ -25,7 +25,7 @@ export const Dashboard = () => {
     const getDashboardData = async () => {
       try {
         const restaurantsDataFetch = await axios.get(
-          "http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/restaurants.json"
+          "/api/restaurants.json"
         );
         setDashboardData(restaurantsDataFetch.data.restaurants);
       } catch (error) {

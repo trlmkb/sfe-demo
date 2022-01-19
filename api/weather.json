@@ -1,0 +1,61 @@
+
+{
+  "weather": [
+    {
+      "weekDay": "Monday",
+      "type": "Cloudy",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+11",
+      "wind": "6 m/s",
+      "precipitation": "0 mm"
+    },
+    {
+      "weekDay": "Tuesday",
+      "type": "Sunny",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+19",
+      "wind": "0.5 m/s",
+      "precipitation": "0 mm"
+    },
+    {
+      "weekDay": "Wednesday",
+      "type": "Light shower",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+13",
+      "wind": "4 m/s",
+      "precipitation": "6 mm"
+    },
+    {
+      "weekDay": "Thursday",
+      "type": "Cloudy",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+7",
+      "wind": "9 m/s",
+      "precipitation": "0 mm"
+    },
+    {
+      "weekDay": "Friday",
+      "type": "Light shower",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+6",
+      "wind": "10 m/s",
+      "precipitation": "7 mm"
+    },
+    {
+      "weekDay": "Saturday",
+      "type": "Thunderstorm",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+3",
+      "wind": "12 m/s",
+      "precipitation": "22 mm"
+    },
+    {
+      "weekDay": "Sunday",
+      "type": "Snow",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "-3",
+      "wind": "4 m/s",
+      "precipitation": "13 mm"
+    }
+  ]
+}

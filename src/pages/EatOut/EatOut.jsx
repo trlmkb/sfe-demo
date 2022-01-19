@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 import { fromToptoBottomAnimation } from "../../animations";
 import { ErrorScreen } from "components/ErrorScreen/ErrorScreen";
 const dbPath =
-  "http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com";
+  "/api";
 
 const locationAPI = {
   key: process.env.REACT_APP_LOCATION_API_KEY,

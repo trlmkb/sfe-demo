@@ -1,0 +1,370 @@
+
+{
+  "stories": [
+    {
+      "type": "birthday",
+      "id": "a402h593er",
+      "userName": "Uncle Roger",
+      "userImage": "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1987-10-31",
+      "wishes": 15,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-10-31T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-10-31T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10972har27",
+      "userName": "Dwayne Johnson",
+      "userImage": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "LDN",
+      "postDate": "2020-11-05T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1573339886518-264aa6f194b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "likes": 15,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-06T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-05T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-05T18:48:00.000Z"
+        },
+        {
+          "userName": "Selena Jimenez",
+          "comment": "Ah, we went there last week. Would have been nice to meet up.",
+          "date": "2020-11-05T19:48:00.000Z"
+        },
+        {
+          "userName": "Whitney Rehbein",
+          "comment": "Someone's finally fancy to share their adventures!",
+          "date": "2020-11-08T20:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "id": "1973ayt36o",
+      "userName": "Wade Owen Watts",
+      "userImage": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2062&q=80",
+      "postLocation": "VLN",
+      "postDate": "2020-11-08T10:27:00.000Z",
+      "postCover": "https://storage.coverr.co/t/Q4G3nDsk01ZRFR9o7HjBzTFkcgXE90101NA",
+      "postVideo": "https://storage.coverr.co/videos/Q4G3nDsk01ZRFR9o7HjBzTFkcgXE90101NA?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA1MTAzNjE2fQ.c7AVDx6JgY1Rv9rSiUqxM47dMzTrmzOsFEJWxd5wK8k",
+      "likes": 27,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-06T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-06T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-07T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10973urh40",
+      "userName": "Anastasia Norris",
+      "userImage": "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "KUN",
+      "postDate": "2020-11-13T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1605073503373-24ea357e74c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80",
+      "likes": 15,
+      "comments": [
+        {
+          "userName": "Aubrey Plaza",
+          "comment": "Beautiful! Where did you hike?",
+          "date": "2020-11-16T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "1076yerh40",
+      "userName": "Carl Rodriquez",
+      "userImage": "https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1002&q=80",
+      "postLocation": "CHI",
+      "postDate": "2020-11-14T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1604609624367-a799bf3d5acd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=989&q=80",
+      "likes": 15,
+      "comments": [
+        {
+          "userName": "Dale Cooper",
+          "comment": "Let's visit this again!",
+          "date": "2020-11-14T14:48:00.000Z"
+        },
+        {
+          "userName": "Geoffrey Howe",
+          "comment": "Beatuiful artwork",
+          "date": "2020-11-14T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "birthday",
+      "id": "g268u593er",
+      "userName": "Wilona Burke",
+      "userImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1992-11-15",
+      "wishes": 8,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-11-16T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-17T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "107iro9h40",
+      "userName": "Ike Green",
+      "userImage": "https://images.unsplash.com/photo-1568967729548-e3dbad3d37e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "CHI",
+      "postDate": "2020-11-16T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1604851880472-376ce53d3244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+      "likes": 9,
+      "comments": [
+        {
+          "userName": "Dale Cooper",
+          "comment": "Let's visit this again!",
+          "date": "2020-11-16T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "id": "1supoyt36o",
+      "userName": "Hadden Barrett",
+      "userImage": "https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "VLN",
+      "postDate": "2020-11-17T10:27:00.000Z",
+      "postCover": "https://storage.coverr.co/p/flYliO01fn8Zw5RH1O9hXlbKbCs02A01hKp",
+      "postVideo": "https://storage.coverr.co/videos/flYliO01fn8Zw5RH1O9hXlbKbCs02A01hKp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA1MTA2MzIyfQ.eHacEaqpHvG_dNz6lOVkNSG4cydWgrqYs9WDdhK82ks",
+      "likes": 27,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-17T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-17T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-18T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "birthday",
+      "id": "17yeo593er",
+      "userName": "Roger Hudson",
+      "userImage": "https://images.unsplash.com/photo-1546672741-d327539d5f13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1981-11-17",
+      "wishes": 28,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-11-17T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-17T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10197o9h40",
+      "userName": "Unity Harding",
+      "userImage": "https://images.unsplash.com/photo-1514846326710-096e4a8035e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "TO",
+      "postDate": "2020-11-18T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1605041354474-9ee7d63deb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "likes": 8,
+      "comments": [
+        {
+          "userName": "Derek Daves",
+          "comment": "Looks very pretty",
+          "date": "2020-11-19T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "id": "1s3874u36o",
+      "userName": "Selena Jimenez",
+      "userImage": "https://images.unsplash.com/photo-1584361853901-dd1904bb7987?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "LDN",
+      "postDate": "2020-11-18T10:27:00.000Z",
+      "postCover": "https://storage.coverr.co/p/NaCaWWgFD8C4OGUi7qgMYvifvTeuiB024",
+      "postVideo": "https://storage.coverr.co/videos/NaCaWWgFD8C4OGUi7qgMYvifvTeuiB024?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA1MTExMDY4fQ.aBe-kKHW6ytU_q2zcbmJ_4YJh-o8rcAtcpV978jok8s",
+      "likes": 17,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-18T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-18T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-18T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "birthday",
+      "id": "17yeo8woer",
+      "userName": "Matt Hodges",
+      "userImage": "https://images.unsplash.com/photo-1583264277147-6efc00e438a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1998-11-19",
+      "wishes": 14,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-11-19T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-19T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10129peh40",
+      "userName": "Tommy Nelson",
+      "userImage": "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "AMS",
+      "postDate": "2020-11-21T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1605089637409-dbd54d83b269?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "likes": 9,
+      "comments": [
+        {
+          "userName": "Derek Daves",
+          "comment": "When did you have your holiday? I thought you're planning on visiting Amsterdam only next month... Time definitely flies 😅",
+          "date": "2020-11-21T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "birthday",
+      "id": "1sy720woer",
+      "userName": "Mia Bird",
+      "userImage": "https://images.unsplash.com/photo-1521146764736-56c929d59c83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1998-11-22",
+      "wishes": 24,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-11-19T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-19T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10au0o9280",
+      "userName": "Ken Moss",
+      "userImage": "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&auto=format&fit=crop&w=944&q=80",
+      "postLocation": "TO",
+      "postDate": "2020-11-24T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1560971017-e22e6a4fbefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80",
+      "likes": 21,
+      "comments": [
+        {
+          "userName": "Derek Daves",
+          "comment": "Did not expect to see you there, but I am glad you've finally went for lunch there. I've told you their meals are the best 🍔",
+          "date": "2020-11-24T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10187tep27",
+      "userName": "Vania Walters",
+      "userImage": "https://images.unsplash.com/photo-1583173170220-22d82796672a?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "LDN",
+      "postDate": "2020-11-26T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1601974222604-f8c88fc836fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      "likes": 26,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-26T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-26T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-26T18:48:00.000Z"
+        },
+        {
+          "userName": "Selena Jimenez",
+          "comment": "Ah, we went there last week. Would have been nice to meet up.",
+          "date": "2020-11-26T19:48:00.000Z"
+        },
+        {
+          "userName": "Whitney Rehbein",
+          "comment": "Someone's finally fancy to share their adventures!",
+          "date": "2020-11-26T20:48:00.000Z"
+        }
+      ]
+    }
+  ]
+}

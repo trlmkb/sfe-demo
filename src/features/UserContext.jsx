@@ -20,7 +20,7 @@ export const UserProvider = ({ children }) => {
     const getUserData = async () => {
       try {
         const userDataFetch = await axios.get(
-          "http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/userData.json"
+          "/api/userData.json"
         );
         setUserData({ ...userData, ...userDataFetch.data.userData[0] });
       } catch (error) {

@@ -13,7 +13,7 @@ import "./newsFeedSection.scss";
 export const NewsFeedSection = () => {
   const pageIncrement = 6;
   const storiesUrl =
-    "http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/stories.json";
+    "/api/stories.json";
   const breakpointColumnsObj = {
     default: 3,
     1150: 2,

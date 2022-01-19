@@ -17,7 +17,7 @@ import { filterSimilarTo } from "../../utils/filterSimilarTo";
 import { UserContext } from "../../features/UserContext";
 
 const dbPath =
-  "http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com";
+  "/api";
 
 export const EatOutRestaurant = () => {
   const { userDataLoading, userDataError, userDataErrorMsg } =

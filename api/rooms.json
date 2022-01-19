@@ -1,0 +1,119 @@
+
+{
+  "rooms": {
+    "roomList": [
+      {
+        "id": "497ee32e-bd90-4515-94dc-4bc408345845",
+        "name": "Nemunas",
+        "image": "https://images.unsplash.com/photo-1595317428853-7d4b208b7192?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+        "type": "Auditorium",
+        "address": "Karaliaus Mindaugo pr. 50",
+        "hasProjector": true,
+        "socketCount": 98,
+        "features": [],
+        "seatCount": 100,
+        "bookedUntil": "2022-12-16"
+      },
+      {
+        "id": "1914c51b-d752-4770-86ea-c628a9040b60",
+        "name": "Zalgiris amphitheater",
+        "image": "https://images.unsplash.com/photo-1581970311662-c9db5ef08dcb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80",
+        "type": "Auditorium",
+        "address": "Karaliaus Mindaugo pr. 50",
+        "hasProjector": true,
+        "socketCount": 14,
+        "features": ["TV/Projector"],
+        "seatCount": 105,
+        "bookedUntil": null
+      },
+      {
+        "id": "a6a50faf-eb3d-4c7f-ab7c-143ec9fa7ffb",
+        "name": "Namų idėjų centras NIC",
+        "image": "https://images.unsplash.com/photo-1577791464704-3bbd2da56803?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80",
+        "type": "U-Shape",
+        "address": "Pramonės pr. 8E",
+        "hasProjector": true,
+        "features": ["TV/Projector"],
+        "socketCount": 12,
+        "seatCount": 12,
+        "bookedUntil": "2021-02-27"
+      },
+      {
+        "id": "0138bd14-cb96-410e-9036-b20afb268311",
+        "name": "Namų idėjų centras NIC",
+        "image": "https://images.unsplash.com/photo-1579488081757-b212dbd6ee72?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+        "type": "U-Shape",
+        "address": "Pramonės pr. 8E",
+        "features": ["TV/Projector"],
+        "hasProjector": true,
+        "socketCount": 2,
+        "seatCount": 15,
+        "bookedUntil": null
+      },
+      {
+        "id": "675aeeb9-6c42-4d81-bc7e-30b5dfc18c2d",
+        "name": "Namų idėjų centras NIC",
+        "image": "https://cdn.pixabay.com/photo/2020/07/31/15/12/boardroom-5453288__340.jpg",
+        "type": "Boardroom",
+        "address": "Pramonės pr. 8E",
+        "features": ["TV/Projector", "Phone", "Food", "Whiteboard"],
+        "hasProjector": false,
+        "socketCount": 72,
+        "seatCount": 93,
+        "bookedUntil": null
+      },
+      {
+        "id": "ba4f6a14-b692-4e58-9f6c-333d9bd7b06d",
+        "name": "Lando hall",
+        "image": "https://images.unsplash.com/photo-1581887300455-5eb259f6eac0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+        "type": "Boardroom",
+        "address": "K. Donelaičio g. 62",
+        "features": ["TV/Projector", "Whiteboard"],
+        "hasProjector": false,
+        "socketCount": 7,
+        "seatCount": 26,
+        "bookedUntil": "2022-04-18"
+      },
+      {
+        "id": "04dc8d96-b911-4839-ac51-9cb0827d9fc6",
+        "name": "Bantingo hall",
+        "image": "https://images.unsplash.com/photo-1590660116447-3e58e29c2e29?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+        "type": "Boardroom",
+        "address": "K. Donelaičio g. 62",
+        "features": ["Phone"],
+        "hasProjector": false,
+        "socketCount": 24,
+        "seatCount": 38,
+        "bookedUntil": null
+      },
+      {
+        "id": "1144b75b-f2f7-4a37-adb0-4a0b059201dc",
+        "name": "Belo hall",
+        "image": "https://images.unsplash.com/photo-1569682535081-3e826bee049b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+        "type": "Classroom",
+        "address": "K. Donelaičio g. 62",
+        "features": ["TV/Projector", "Whiteboard"],
+        "hasProjector": true,
+        "socketCount": 20,
+        "seatCount": 14,
+        "bookedUntil": "2022-13-15"
+      },
+      {
+        "id": "a1fd706e-52cd-44b3-80a4-33ece433596b",
+        "name": "Volkerio hall",
+        "image": "https://images.unsplash.com/photo-1591587495187-e6cdd5a98e60?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+        "type": "Classroom",
+        "address": "K. Donelaičio g. 62",
+        "features": ["TV/Projector", "Food"],
+        "hasProjector": true,
+        "socketCount": 31,
+        "seatCount": 4,
+        "bookedUntil": null
+      }
+    ],
+    "filterCategories": {
+      "type": ["Boardroom", "U-Shape", "Auditorium", "Classroom"],
+      "features": ["TV/Projector", "Phone", "Food", "Whiteboard"]
+    }
+  }
+}

@@ -28,7 +28,7 @@ export const EatOutCategoriesPage = () => {
     const getRestaurants = async () => {
       try {
         const response = await axios.get(
-          "http://frontendsourceryweb.s3-website.eu-central-1.amazonaws.com/restaurants.json"
+          "/api/restaurants.json"
         );
         setRestaurants(response.data.restaurants);
       } catch (e) {

@@ -1,0 +1,968 @@
+
+{
+  "restaurants": [
+    {
+      "name": "Grill London (Kaunas, PLC Mega)",
+      "id": "120wsdlpx4",
+      "slogan": "Best burgers in the town",
+      "createdDate": "2019-06-05",
+      "description": "„Grill London” is a chain of grill restaurants that visitors love because of its exceptional and responsible take on food quality. All of its steaks are grilled in unique ceramic grills using ecological fuels.",
+      "openingHours": [
+        {
+          "days": "Monday - Friday",
+          "hours": "10:30 - 22:15"
+        },
+        {
+          "days": "Saturday - Sunday",
+          "hours": "11:00 - 23:00"
+        }
+      ],
+      "website": "http://grilllondon.lt",
+      "location": {
+        "address": "Islandijos pl. 32, Kaunas",
+        "coordinates": {
+          "lat": 54.94013552838086,
+          "lng": 23.891938359698315
+        }
+      },
+      "phone": "+370 627 93122",
+      "image": "https://images.unsplash.com/photo-1498579485796-98be3abc076e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
+      "checkIns": 8,
+      "reviews": [
+        {
+          "userName": "Luke Skywalker",
+          "id": "730tybsl12",
+          "comment": "Tasty burgers, but had to wait a long line.",
+          "rating": 4
+        },
+        {
+          "userName": "Uncle Roger",
+          "id": "10f836s0pw",
+          "comment": "Didn't have fried rice, a bit disappointed.",
+          "rating": 3.5
+        },
+        {
+          "userName": "Sara Lars",
+          "id": "183gstwpl6",
+          "comment": "Food didn’t meet my expectations, but it was fine. But the customer experience was flawless!",
+          "rating": 5
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "id": "183620uer",
+          "comment": "Good burgers, good price",
+          "rating": 4
+        }
+      ],
+      "categories": ["Burger", "Salads", "Grill"]
+    },
+    {
+      "name": "Jurgis ir Drakonas",
+      "id": "wtlztmw3rr",
+      "slogan": "Fire up the taste",
+      "createdDate": "2019-06-07",
+      "description": "Jurgis ir Drakonas make pizza for the real heroes. Real heroes understand the best quality. Our authenitic Neapolitan tradition pizza are made from real Italian 00 flour. Tomatoes grown under the hot Italian sun are ripe and rich, and Italian fior di latte mozzarella melts in your mouth.",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "12:00 - 20:00"
+        }
+      ],
+      "website": "https://jurgisirdrakonas.lt",
+      "location": {
+        "address": "Kurpių g. 26, Kaunas",
+        "coordinates": {
+          "lat": 54.895815575566495,
+          "lng": 23.895146363387344
+        }
+      },
+      "phone": "+370 672 00320",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2514&q=80",
+      "checkIns": 12,
+      "reviews": [
+        {
+          "userName": "Jefferson Gutierrez",
+          "id": "i8r7gpdpfi",
+          "comment": "Cosy outside seating, tasty food. Recommended for everyone who’s looking for nice dinner both inside or outside.",
+          "rating": 4.5
+        },
+        {
+          "userName": "Edgar Abbott",
+          "id": "0rqlywcr8c",
+          "comment": "Nice place, a lot of natural food, exclusive pizza. Ice cream which you can get only in this restaurant. Good place for children.",
+          "rating": 5
+        },
+        {
+          "userName": "Samantha Henry",
+          "id": "9hku9agnj4",
+          "comment": "Ok pizza, good beer. Environment is better for family than for business traveler attempting to relax over dinner. Lots of kids.",
+          "rating": 3
+        },
+        {
+          "userName": "Edric Ingram",
+          "id": "fs6jf8u00z",
+          "comment": "Nice pizza, but not the best I had. Friendly staff, reasonably priced menu. Was very quiet when we visited.",
+          "rating": 4
+        },
+        {
+          "userName": "Valerie Jordan",
+          "id": "3snsdmmxz1",
+          "comment": "Hated it.",
+          "rating": 1
+        },
+        {
+          "userName": "Samuel Frost",
+          "id": "wdni7vwbuy",
+          "comment": "Most awesome pizza I ever had!",
+          "rating": 5
+        }
+      ],
+      "categories": ["Salads", "Pizza", "Pancakes", "Soups"]
+    },
+    {
+      "name": "Mamma Pizza",
+      "id": "7et2tk3ih1",
+      "slogan": "Like from your mom - just better",
+      "createdDate": "2019-06-02",
+      "description": "Small, but very cozy place in the center of Kaunas, very tasty food with vegetarian options, vegan too. Super friendly staff.",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "10:00 - 23:00"
+        }
+      ],
+      "website": "http://www.mammapizza.lt",
+      "location": {
+        "address": "Vytauto pr. 37, Kaunas",
+        "coordinates": {
+          "lat": 54.88976231771571,
+          "lng": 23.92600737177067
+        }
+      },
+      "phone": "+370 680 97977",
+      "image": "https://images.unsplash.com/photo-1589906493606-a6ca2a06078b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyNjA3NH0&auto=format&fit=crop&w=2550&q=80",
+      "checkIns": 6,
+      "reviews": [
+        {
+          "userName": "Eloise Matthews",
+          "id": "o0qtbt1x97",
+          "comment": "One of The best Pizza in town. Good fresh juice. Family friendly and quite nice music.",
+          "rating": 4
+        },
+        {
+          "userName": "Marc Baxter",
+          "id": "n2jebjv5kc",
+          "comment": "Good, but nothing special.",
+          "rating": 2.5
+        },
+        {
+          "userName": "Stewart Henry",
+          "id": "iyvfh3hlqj",
+          "comment": "We ordered two pizzas. Both were almost cold when served (it was not busy time). Beer and cider one the other hand were warm on a day of 30 degrees celsius.",
+          "rating": 1
+        },
+        {
+          "userName": "Travis Farmer",
+          "id": "5bcbeuz4py",
+          "comment": "The best pizza`s in Kaunas. Very delicious, quality ingredients, very kind and good service and affordable prices. Must visit.",
+          "rating": 5
+        }
+      ],
+      "categories": ["Pizza"]
+    },
+    {
+      "name": "MOMO Grill Kaunas",
+      "id": "x8bd7ozuj6",
+      "slogan": "Grilled up",
+      "createdDate": "2018-06-05",
+      "description": "Chef and owner of MOMO GRILL is widely known for his international experience, but what he’s actually FEELING can only be revealed after taking a bite, a spoonful or otherwise sampling his cooking. Knowledge AND feelings. Seasons AND emotions. Flavour AND memories. Sometimes it’s so simple that it can even be complicated.",
+      "openingHours": [
+        {
+          "days": "Tuesday - Sunday",
+          "hours": "11:00 - 23:00"
+        }
+      ],
+      "website": "https://momogrill.lt",
+      "location": {
+        "address": "Karaliaus Mindaugo pr. 18a, Kaunas",
+        "coordinates": {
+          "lat": 54.894580590225445,
+          "lng": 23.89727312317586
+        }
+      },
+      "phone": "+370 37 297488",
+      "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+      "checkIns": 18,
+      "reviews": [
+        {
+          "userName": "Derek Daves",
+          "id": "8m69jg4evv",
+          "comment": "Very tasty, good service, nice ambience, good location. 10 points ;) Mimosas, soups, beef, coffee, ice cream.",
+          "rating": 5
+        },
+        {
+          "userName": "Chase Oliver",
+          "id": "ektcqbs4m5",
+          "comment": "Nice place in downtown of Kaunas. Tasty food. Cosy accomodation. Perfect dishes. Highly reccomend for friends, business and family.",
+          "rating": 4.5
+        },
+        {
+          "userName": "Frank Hurlbutt",
+          "id": "c8l9pelpnv",
+          "comment": "I don't really like meat.",
+          "rating": 2.5
+        },
+        {
+          "userName": "Samson Jensen",
+          "id": "6hmnta6rse",
+          "comment": "My favorite restaurant in Kaunas for brunch, lunch, dinner or sweet dessert!",
+          "rating": 4
+        },
+        {
+          "userName": "Matt Hodges",
+          "id": "jw2ugddcg5",
+          "comment": "Great service, very good food. Every time it is worth to come back.",
+          "rating": 4.5
+        },
+        {
+          "userName": "Nina Bowen",
+          "id": "afr99kdf9q",
+          "comment": "I love good steak and this is the best one i can get in Kaunas city.",
+          "rating": 4
+        },
+        {
+          "userName": "Lance Marrow",
+          "id": "awuiaohbks",
+          "comment": "I like the food there. The meat is so nicely grilled!",
+          "rating": 4.5
+        },
+        {
+          "userName": "Tommy Nelson",
+          "id": "gf77pv4o1n",
+          "comment": "Best brunch in town! Egg Benedicts and English breakfast was really very delicious! Best wishes, can't wait to come back!",
+          "rating": 5
+        }
+      ],
+      "categories": ["Grill", "Sweets", "Breakfast"]
+    },
+    {
+      "name": "Restoranas Siesta",
+      "id": "3gogeanl0p",
+      "slogan": "Too delicious",
+      "createdDate": "2020-06-05",
+      "description": "Delicious food, cozy atmosphere, family friendly",
+      "openingHours": [
+        {
+          "days": "Monday - Saturday",
+          "hours": "12:00 - 22:30"
+        }
+      ],
+      "website": "https://restoranassiesta.lt",
+      "location": {
+        "address": "Pakrantės g. 4, Vareikonys, Kauno r., Kaunas",
+        "coordinates": {
+          "lat": 55.10545044712004,
+          "lng": 23.781182670278557
+        }
+      },
+      "phone": "+370 614 98198",
+      "image": "https://images.unsplash.com/photo-1598343214618-dd202db9ad20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+      "checkIns": 5,
+      "reviews": [
+        {
+          "userName": "Rocky Thornton",
+          "id": "x1y6iixy5l",
+          "comment": "Beautiful restaurant in the centre of Lithuania next to highway Klaipėda-Kaunas. Delicious food, nice choice, good local and imported drinks.",
+          "rating": 4
+        },
+        {
+          "userName": "Laurel Robbins",
+          "id": "8s3qu8d6so",
+          "comment": "Too fancy for my taste.",
+          "rating": 2.5
+        },
+        {
+          "userName": "Bud Harris",
+          "id": "c8l9pelpnv",
+          "comment": "Excellent place, excellent food, perfect service, nice view. I will come back next time and save some space for desert.",
+          "rating": 5
+        }
+      ],
+      "categories": ["Salads", "Grill", "Soups"]
+    },
+    {
+      "name": "Restoranas DIA",
+      "id": "porhch2lam",
+      "slogan": "Oh so tasty!",
+      "createdDate": "2012-06-05",
+      "description": "We are ready to arrange you an unforgettable celebration, restaurant staff will take care about all the smolest details: decorate the hall, arrange musicians, agree the celebration menu with the customer, will make all kinds of world cuisine dishes.",
+      "openingHours": [
+        {
+          "days": "Wednesday - Sunday",
+          "hours": "11:00 - 23:00"
+        }
+      ],
+      "website": "http://restoranasdia.lt",
+      "location": {
+        "address": "Maironio g. 9, Kaunas",
+        "coordinates": {
+          "lat": 54.896552052485234,
+          "lng": 23.909268634336954
+        }
+      },
+      "phone": "+370 655 80308",
+      "image": "https://images.unsplash.com/photo-1516685018646-549198525c1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+      "checkIns": 15,
+      "reviews": [
+        {
+          "userName": "Blossom Schuman",
+          "id": "oqk2m7wtlz",
+          "comment": "We visited with friends. Great service, very tasty food, cozy environment. The prices are quite high but the quality is good.",
+          "rating": 4
+        },
+        {
+          "userName": "Henrietta Fields",
+          "id": "tmw3rri8r7",
+          "comment": "Soup was ok, reminded me of a ragu that had been transformed into a soup. Nothing special but ok.",
+          "rating": 4
+        },
+        {
+          "userName": "Halsey Cress",
+          "id": "gpdpfi0rql",
+          "comment": "One of the goals during our trip to Kaunas was to visit Dia. The restaurant has been listed in top 30 best restaurants in Lithuania and despite the fact, I did not hear that much buzz around it.",
+          "rating": 5
+        },
+        {
+          "userName": "Warwick Brooks",
+          "id": "ywcr8c9hku",
+          "comment": "Best food in town, always!",
+          "rating": 5
+        },
+        {
+          "userName": "Whitney Rehbein",
+          "id": "9agnj4fs6j",
+          "comment": "Good choice for tasty meals and good service, nice interior. The place, where I'd like to come back again.",
+          "rating": 4
+        },
+        {
+          "userName": "Ford Meskill",
+          "id": "f8u00z3sns",
+          "comment": "Very good quality and well presented.",
+          "rating": 4
+        },
+        {
+          "userName": "Geoffrey Howe",
+          "id": "dmmxz1wdni",
+          "comment": "Best dining experience in Kaunas",
+          "rating": 4.5
+        }
+      ],
+      "categories": ["Salads", "Grill", "Breakfast", "Soups"]
+    },
+    {
+      "name": "Agave",
+      "id": "tk3ih1o0qt",
+      "slogan": "Ayyy tasty",
+      "createdDate": "2009-06-05",
+      "description": "An exceptional mexican restaurant.",
+      "openingHours": [
+        {
+          "days": "Monday - Friday",
+          "hours": "12:00 - 22:00"
+        }
+      ],
+      "website": "https://www.facebook.com/agaverestoranas",
+      "location": {
+        "address": "Rotušės a. 3, Kaunas",
+        "coordinates": {
+          "lat": 54.89667728673178,
+          "lng": 23.887710506872565
+        }
+      },
+      "phone": "+370 616 98496",
+      "image": "https://images.unsplash.com/photo-1584208632869-05fa2b2a5934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1850&q=80",
+      "checkIns": 9,
+      "reviews": [
+        {
+          "userName": "Frontend Wizard",
+          "id": "c66b1717-9e27-4511-af7f-d592ee034ab0",
+          "comment": "",
+          "rating": 5
+        },
+        {
+          "userName": "Laura Palmer",
+          "id": "bt1x97n2je",
+          "comment": "Best Mexican place in Kaunas for sure. Appetizers, main course, dessert, all are on the high level.",
+          "rating": 5
+        },
+        {
+          "userName": "Dale Cooper",
+          "id": "bjv5kciyvf",
+          "comment": "We had a pleasant experience.",
+          "rating": 5
+        }
+      ],
+      "categories": ["Salads", "Grill", "Pancakes"]
+    },
+    {
+      "name": "Moksha",
+      "id": "h3hlqj5bcb",
+      "slogan": "Spice it up",
+      "createdDate": "2013-06-05",
+      "description": "Moksha is small restaurant serving pescatarian (fish & vegan) pan-asian food with a healthy twist. Majority of the food we serve is vegan. We make non traditional kimchis, kombuchas, lemonades, vegan ice-creams and vegan cakes free from added sugar.",
+      "openingHours": [
+        {
+          "days": "Monday - Friday",
+          "hours": "11:00 - 21:00"
+        }
+      ],
+      "website": "https://www.facebook.com/CafeMoksha",
+      "location": {
+        "address": "Vasario 16-osios g. 6-1, Kaunas",
+        "coordinates": {
+          "lat": 54.89844302951122,
+          "lng": 23.908251872519394
+        }
+      },
+      "phone": "+370 676 71649",
+      "image": "https://images.unsplash.com/photo-1483918793747-5adbf82956c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "checkIns": 19,
+      "reviews": [
+        {
+          "userName": "Pandora Burns",
+          "id": "euz4pyx8bd",
+          "comment": "I would never usually consider going to a vegan/vegetarian restaurant but now I will because this place was so good!",
+          "rating": 5
+        },
+        {
+          "userName": "Mabel Mckinney",
+          "id": "7ozuj68m69",
+          "comment": "Wonderful place!",
+          "rating": 5
+        },
+        {
+          "userName": "Elvira Gill",
+          "id": "jg4evvektc",
+          "comment": "Best place for environmentaly-conscious people in Kaunas!",
+          "rating": 4.5
+        },
+        {
+          "userName": "Hadden Barrett",
+          "id": "qbs4m5c8l9",
+          "comment": "Amazing food. Freshly prepared.",
+          "rating": 5
+        }
+      ],
+      "categories": ["Salads", "Ramen"]
+    },
+    {
+      "name": "Avilys",
+      "id": "pelpnv6hmn",
+      "slogan": "Pursuit the traditions",
+      "createdDate": "2019-06-05",
+      "description": "To enjoy the beer made in restaurant’s cellar’s brewery. Avilys produce LIVE, unfiltered, unpasteurized beer. Our brand is beer with Lithuanian honey. During the beer tour and tasting we‘ll introduce you with all the specifics of AVILYS beer making. We’ll show you the inside of the brewery too.",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "12:00 - 00:00"
+        }
+      ],
+      "website": "https://avilys.lt",
+      "location": {
+        "address": "Vilniaus g. 34, Kaunas",
+        "coordinates": {
+          "lat": 54.89639923054928,
+          "lng": 23.89255349830976
+        }
+      },
+      "phone": "+370 699 66239",
+      "image": "https://images.unsplash.com/photo-1586999763660-2a8730809450?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "checkIns": 10,
+      "reviews": [
+        {
+          "userName": "Samantha Pena",
+          "id": "ta6rsejw2u",
+          "comment": "Went twice in a week, and would go again.",
+          "rating": 4
+        },
+        {
+          "userName": "Roger Hudson",
+          "id": "gddcg5afr9",
+          "comment": "We enjoyed our meal here. The vaulted basement is quite atmospheric. The fried bread with cheese starter was a meal in itself. The food was very good, along with the service. Tried the beer of course.",
+          "rating": 5
+        }
+      ],
+      "categories": ["Burger", "Sandwich"]
+    },
+    {
+      "name": "Katpėdėlė",
+      "id": "9kdf9qawui",
+      "slogan": "Best lithuanian cuisine in the town",
+      "createdDate": "2019-08-05",
+      "description": "Traditional Lithuanian cuisine - experience the most popular national meals, discover new tastes! The interior and the atmosphere is created to resemble unique old village style.",
+      "openingHours": [
+        {
+          "days": "Monday - Friday",
+          "hours": "10:00 - 22:00"
+        }
+      ],
+      "website": "https://www.katpedele.lt",
+      "location": {
+        "address": "V. Krėvės pr. 57, Kaunas",
+        "coordinates": {
+          "lat": 54.92086524047006,
+          "lng": 23.97353685065208
+        }
+      },
+      "phone": "+370 620 66323",
+      "image": "https://images.unsplash.com/photo-1571139318929-bb90d382dbd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+      "checkIns": 2,
+      "reviews": [
+        {
+          "userName": "Carl Rodriquez",
+          "id": "aohbksgf77",
+          "comment": "Very tasty food, nice place, good service, tasty coctails.",
+          "rating": 3
+        },
+        {
+          "userName": "Derick Dinwiddie",
+          "id": "pv4o1n3gog",
+          "comment": "Great and nice place, delicious Lithuanian food and good atmosphere.",
+          "rating": 5
+        },
+        {
+          "userName": "Mia Bird",
+          "id": "eanl0px1y6",
+          "comment": "Didn't really like the food here.",
+          "rating": 3
+        },
+        {
+          "userName": "Phyllis Adkins",
+          "id": "iixy5l8s3q",
+          "comment": "Nice place for family dinner.",
+          "rating": 4
+        },
+        {
+          "userName": "Dana Castillo",
+          "id": "u8d6soporh",
+          "comment": "Perfect, friendly and fast service, delicious Lithuanian food.",
+          "rating": 4.5
+        }
+      ],
+      "categories": ["Kebab", "Sweets"]
+    },
+    {
+      "name": "Sushi Masters",
+      "id": "ch2lamoqk2",
+      "slogan": "Sushi sushi sushi",
+      "createdDate": "2019-04-05",
+      "description": "A great sushi place.",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "11:00 - 22:30"
+        }
+      ],
+      "website": "https://www.facebook.com/sushimasterskaunas",
+      "location": {
+        "address": "Šv. Gertrūdos g. 39a, Kaunas",
+        "coordinates": {
+          "lat": 54.89896259395091,
+          "lng": 23.890748094165108
+        }
+      },
+      "phone": "+370 635 09000",
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80",
+      "checkIns": 8,
+      "reviews": [
+        {
+          "userName": "Vania Walters",
+          "id": "m7wtlztmw3",
+          "comment": "Taste is perfect, but prices are very high and portions too small for this price.",
+          "rating": 4
+        }
+      ],
+      "categories": ["Sushi", "Soups"]
+    },
+    {
+      "name": "Talutti - Fresh and Tasty",
+      "id": "rri8r7gpdp",
+      "description": "Nothing can be better than eating good pancakes.",
+      "slogan": "Oh so fresh",
+      "createdDate": "2019-03-05",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "11:00 - 23:00"
+        }
+      ],
+      "website": "https://talutti.lt",
+      "location": {
+        "address": "Taikos pr. 12, Kaunas",
+        "coordinates": {
+          "lat": 54.91107306570668,
+          "lng": 23.940096128333412
+        }
+      },
+      "phone": "+370 656 68999",
+      "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "checkIns": 12,
+      "reviews": [
+        {
+          "userName": "Emily Tyler",
+          "id": "fi0rqlywcr",
+          "comment": "Cozy and nice place to have a brunch :) Tasty and fresh food, a lot of different options in the menu, prices not so high as well.",
+          "rating": 4
+        },
+        {
+          "userName": "Arnold Mason",
+          "id": "8c9hku9agn",
+          "comment": "Good prices, great food.",
+          "rating": 5
+        },
+        {
+          "userName": "Hazel Strickland",
+          "id": "j4fs6jf8u0",
+          "comment": "I’m a local, I can say this is my favourite restaurant in town! Very reasonably priced, big portions, delicious food and just a great atmosphere!",
+          "rating": 5
+        }
+      ],
+      "categories": ["Burger", "Breakfast", "Pancakes"]
+    },
+    {
+      "name": "IETI",
+      "id": "0z3snsdmmx",
+      "description": "Relax and enjoy old town.",
+      "slogan": "We make it better",
+      "createdDate": "2019-02-05",
+      "openingHours": [
+        {
+          "days": "Monday - Friday",
+          "hours": "12:00 - 22:00"
+        }
+      ],
+      "website": "http://www.ieti.lt",
+      "location": {
+        "address": "Rotušės a. 6, Kaunas",
+        "coordinates": {
+          "lat": 54.8961994217457,
+          "lng": 23.887269049345885
+        }
+      },
+      "phone": "+370 626 85228",
+      "image": "https://images.unsplash.com/photo-1581755386038-f959f0d4a1dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1971&q=80",
+      "checkIns": 4,
+      "reviews": [
+        {
+          "userName": "Herbert Madron",
+          "id": "z1wdni7vwb",
+          "comment": "Almost all other reviews about this restaurant praise it very highly indeed. And they are quite correct!",
+          "rating": 5
+        },
+        {
+          "userName": "Milo Conner",
+          "id": "uy7et2tk3i",
+          "comment": "Very cosy and nice place to eat.",
+          "rating": 4.5
+        },
+        {
+          "userName": "Roxanne Bowman",
+          "id": "h1o0qtbt1x",
+          "comment": "I liked the interior.",
+          "rating": 3
+        },
+        {
+          "userName": "John Dunn",
+          "id": "97n2jebjv5",
+          "comment": "The combination of flavours is inspired.",
+          "rating": 5
+        },
+        {
+          "userName": "Ken Moss",
+          "id": "kciyvfh3hl",
+          "comment": "Had a great lunch here today. Interesting food with Lithuanian seasonal products.",
+          "rating": 5
+        }
+      ],
+      "categories": ["Sweets"]
+    },
+    {
+      "name": "Pas Stanley",
+      "id": "qj5bcbeuz4",
+      "slogan": "Warm & friendly",
+      "createdDate": "2017-06-05",
+      "description": "Welcome to our house! We are humble and honoured for your stay at our place – a place which, we hope, will give you a warm and friendly experience and where you want to return to!",
+      "openingHours": [
+        {
+          "days": "Monday - Friday",
+          "hours": "10:00 - 22:00"
+        }
+      ],
+      "website": "http://pas-stanley.com",
+      "location": {
+        "address": "Vilniaus g. 24, Kaunas",
+        "coordinates": {
+          "lat": 54.89632325207335,
+          "lng": 23.89093591792127
+        }
+      },
+      "phone": "+370 650 36506",
+      "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80",
+      "checkIns": 11,
+      "reviews": [
+        {
+          "userName": "Zach Robinson",
+          "id": "pyx8bd7ozu",
+          "comment": "Delicious homemade lemonade.",
+          "rating": 4
+        },
+        {
+          "userName": "Cedric Fairbank",
+          "id": "j68m69jg4e",
+          "comment": "A nice relaxed place just off the old town square. Nice decor and layout, kind of a hybrid between a traditional restaurant and a bar.",
+          "rating": 4.5
+        }
+      ],
+      "categories": ["Kebab", "Ramen", "Burger"]
+    },
+    {
+      "name": "Lithuanian Pub Entry",
+      "id": "vvektcqbs4",
+      "slogan": "Tasty & cheap food",
+      "createdDate": "2012-06-05",
+      "description": "Full plates. Reasonable prices. Good vibes only. Come and see!",
+      "openingHours": [
+        {
+          "days": "Wednesday - Sunday",
+          "hours": "11:00 - 23:00"
+        }
+      ],
+      "website": "https://lithuanianpub.lt",
+      "location": {
+        "address": "Vilniaus g. 26, Kaunas",
+        "coordinates": {
+          "lat": 54.89642795361554,
+          "lng": 23.891496055156875
+        }
+      },
+      "phone": "+370 614 43332",
+      "image": "https://images.unsplash.com/photo-1559847844-d9d2bc807d82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+      "checkIns": 3,
+      "reviews": [
+        {
+          "userName": "Anastasia Norris",
+          "id": "m5c8l9pelp",
+          "comment": "Best chicken wings in town, quite big drinks assortiment. Good music.",
+          "rating": 4.5
+        }
+      ],
+      "categories": ["Salads", "Sandwich", "Kebab"]
+    },
+    {
+      "name": "Casa Della Pasta, pizzeria - restaurant",
+      "id": "nv6hmnta6r",
+      "slogan": "True italian restaurant",
+      "createdDate": "2014-06-05",
+      "description": "A story based on sacrifice, hard work and energy… Fabio Manconi started life with few privileges in his home town in Italy. Working in a family restaurant from a very young age, after school he waited for the right moment to get his first experiences abroad… From London, Sydney and Hong Kong, following his heart, he arrived in Kaunas, where he settled down and decided to pursue his dream. A dream called Casa della pasta.",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "10:00 - 23:00"
+        }
+      ],
+      "website": "http://www.italurestoranas.lt",
+      "location": {
+        "address": "Laisvės al. 27, Kaunas",
+        "coordinates": {
+          "lat": 54.89699180730873,
+          "lng": 23.919581032720416
+        }
+      },
+      "phone": "+370 633 44255",
+      "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+      "checkIns": 13,
+      "reviews": [],
+      "categories": ["Salads", "Hot dogs", "Kebab"]
+    },
+    {
+      "name": "Višta Puode",
+      "id": "sejw2ugddc",
+      "slogan": "Chicken? Oh yes!",
+      "createdDate": "2020-06-05",
+      "description": "Which side of a chicken has the most feathers?",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "7:30 - 23:00"
+        }
+      ],
+      "website": "https://vistapuode.lt",
+      "location": {
+        "address": "S. Daukanto g. 23, Kaunas",
+        "coordinates": {
+          "lat": 54.89833463403161,
+          "lng": 23.91349155805629
+        }
+      },
+      "phone": "+370 693 63777",
+      "image": "https://images.unsplash.com/photo-1597667079555-78f5c6a05d2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "checkIns": 7,
+      "reviews": [
+        {
+          "userName": "Lisa Lambert",
+          "id": "g5afr99kdf",
+          "comment": "Nice place to eat. Food is nothing special, but it's good.",
+          "rating": 4
+        },
+        {
+          "userName": "Henrietta Fennimore",
+          "id": "9qawuiaohb",
+          "comment": "Just the average food for higher than average prices. I would not recommend this for traditional lithuanian cousine.",
+          "rating": 2.5
+        },
+        {
+          "userName": "Miranda Barnes",
+          "id": "ksgf77pv4o",
+          "comment": "We booked a table for celebration, but no one told us that we will be able to order dishes just from the lunch meniu, that involves 4 dishes...",
+          "rating": 1.5
+        },
+        {
+          "userName": "Caesar Francis",
+          "id": "1n3gogeanl",
+          "comment": "Nice modern-folk restaurant.",
+          "rating": 4
+        }
+      ],
+      "categories": ["Burger", "Grill", "Sweets"]
+    },
+    {
+      "name": "Hop Doc Gastropub",
+      "id": "0px1y6iixy",
+      "slogan": "Modern & new",
+      "createdDate": "2019-06-05",
+      "description": "HOP DOC GASTROPUB - brand new addition to Kaunas Old Town. Located few steps from a main Vilnius street, we serve you modern interior, more than 100 kinds of beers, full bar & grill. Lunch specials from 12:00 till 15:00 on work days. Fresh oysters come in every Friday. Kitchen is open till 23:00 on weekdays and till 24:00 on weekends. We recommend You to book in advance.",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "17:00 - 00:30"
+        }
+      ],
+      "website": "https://www.hopdoc.lt",
+      "location": {
+        "address": "M. Daukšos g. 23, Kaunas",
+        "coordinates": {
+          "lat": 54.89730786156492,
+          "lng": 23.89116509699445
+        }
+      },
+      "phone": "+370 37 227656",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80",
+      "checkIns": 17,
+      "reviews": [
+        {
+          "userName": "Bob Morales",
+          "id": "0h4ozlq391",
+          "comment": "Brilliant food and tasty beer.",
+          "rating": 5
+        },
+        {
+          "userName": "Skye Langstaff",
+          "id": "nkkjnc7cxg",
+          "comment": "Very tasty burgers. Cosy atmosphere just a few steps away from main old town street. Great place to eat and take few beers.",
+          "rating": 4.5
+        }
+      ],
+      "categories": ["Salads", "Sandwich", "Kebab"]
+    },
+    {
+      "name": "Al Cantuccio",
+      "id": "hvoirynmd4",
+      "description": "A family place.",
+      "slogan": "Family place restaurant",
+      "createdDate": "2019-06-05",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "13:00 - 19:00"
+        }
+      ],
+      "website": "https://www.facebook.com/Alcanntucio",
+      "location": {
+        "address": "Muitinės g. 1-2, Kaunas",
+        "coordinates": {
+          "lat": 54.896026484847326,
+          "lng": 23.887752260207876
+        }
+      },
+      "phone": "+370 606 74114",
+      "image": "https://images.unsplash.com/photo-1559948271-7d5c98d2e951?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "checkIns": 0,
+      "reviews": [
+        {
+          "userName": "Selena Jimenez",
+          "id": "n2bl8kadvn",
+          "comment": "Food was delicious. Staff efficient and well mannered.",
+          "rating": 4
+        },
+        {
+          "userName": "Unity Harding",
+          "id": "lhus7m385d",
+          "comment": "Gelato and iced coffee was very delicious.",
+          "rating": 4.5
+        },
+        {
+          "userName": "Ned Alexander",
+          "id": "fp45cjfzan",
+          "comment": "This is the top place in Kaunas to eat. Very nice inner yard with helpful staff. Very nice selection of pasta and tasty salads. We will definitely come back again.",
+          "rating": 5
+        },
+        {
+          "userName": "Faye Macy",
+          "id": "1eb3pvwvyo",
+          "comment": "One of my favorite restaurants.",
+          "rating": 5
+        }
+      ],
+      "categories": ["Donuts", "Pancakes", "Ramen"]
+    },
+    {
+      "name": "ManGi",
+      "id": "jo9ihsvxr8",
+      "description": "Bar, fast food, street food",
+      "slogan": "Everything you ever wanted",
+      "createdDate": "2019-06-05",
+      "openingHours": [
+        {
+          "days": "Monday - Sunday",
+          "hours": "12:00 - 18:00"
+        }
+      ],
+      "website": "https://mangi.lt",
+      "location": {
+        "address": "Vilniaus g. 36, Kaunas",
+        "coordinates": {
+          "lat": 54.896471906444866,
+          "lng": 23.893462943386695
+        }
+      },
+      "phone": "+370 603 46129",
+      "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+      "checkIns": 2,
+      "reviews": [
+        {
+          "userName": "Wilona Burke",
+          "id": "je3qs6qt3a",
+          "comment": "Best hot dogs in the Universe.",
+          "rating": 5
+        },
+        {
+          "userName": "Ike Green",
+          "id": "oypfyedwjw",
+          "comment": "Very yummy, filling and interesting hotdogs. Friendly staff. Offering vegan sausages!",
+          "rating": 4.5
+        }
+      ],
+      "categories": ["Grill", "Kebab", "Burger", "Sushi"]
+    }
+  ]
+}

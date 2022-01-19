@@ -1,0 +1,1173 @@
+
+{
+  "devices": {
+    "deviceList": [
+      {
+        "name": "iPhone X",
+        "id": "193ywpe740",
+        "deviceType": "Mobile",
+        "os": "iOS",
+        "brand": "Apple",
+        "bookedUntil": [
+          {
+            "date": "2022-02-13"
+          },
+          {
+            "date": "2022-12-08"
+          },
+          {
+            "date": "2022-02-16"
+          }
+        ],
+        "quantity": 3,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/618ZI2Xyw%2BL._AC_SL1500_.jpg"
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Apple iPad (Wi-Fi, 32GB) - Gold",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Y5NYmG81L._SL1024_.jpg",
+        "brand": "Apple",
+        "bookedUntil": null,
+        "os": "MacOS",
+        "id": "1563175150",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Apple iPhone 8 Plus (Red, 256GB)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71Erg2XbSrL._SL1500_.jpg",
+        "brand": "Apple",
+        "bookedUntil": [
+          {
+            "date": "2022-05-14"
+          }
+        ],
+        "os": "iOS",
+        "id": "1563182708",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Apple iPad Air (10.5-inch, Wi-Fi, 64GB) - Gold",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51IqpNeYKPL._SL1024_.jpg",
+        "brand": "Apple",
+        "bookedUntil": [
+          {
+            "date": "2022-01-10"
+          },
+          {
+            "date": "2022-03-14"
+          },
+          {
+            "date": "2022-05-13"
+          },
+          {
+            "date": "2022-07-22"
+          },
+          {
+            "date": "2022-08-11"
+          }
+        ],
+        "os": "MacOS",
+        "id": "1563187740",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Apple iPad (Wi-Fi, 128GB) - Space Grey",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51x4j48wCpL._SL1024_.jpg",
+        "brand": "Apple",
+        "bookedUntil": null,
+        "os": "MacOS",
+        "id": "1563189600",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Google Pixel 2 XL (18:9 Display, 64 GB) Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61bbH2ltBoL._SX679_.jpg",
+        "brand": "Google",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563172087",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "HTC Desire 12 + (Cool Black, 3GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/618QdV1wRwL._SL1000_.jpg",
+        "brand": "HTC",
+        "bookedUntil": [
+          {
+            "date": "2022-08-10"
+          }
+        ],
+        "os": "Android",
+        "id": "1563168222",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG W30 (Aurora Green, 3GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71U08Cltx9L._SL1500_.jpg",
+        "brand": "LG",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563168159",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG Q Stylus+ (Black, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51rlIbQUU-L._SL1047_.jpg",
+        "brand": "LG",
+        "bookedUntil": [
+          {
+            "date": "2022-12-14"
+          },
+          {
+            "date": "2022-01-16"
+          },
+          {
+            "date": "2022-08-25"
+          },
+          {
+            "date": "2022-08-27"
+          }
+        ],
+        "os": "Android",
+        "id": "1563168714",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG K9 4G LTE (Blue, 2GB RAM, 16GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61LReoT20JL._SL1500_.jpg",
+        "brand": "LG",
+        "bookedUntil": [
+          {
+            "date": "2022-02-12"
+          }
+        ],
+        "os": "Android",
+        "id": "1563169526",
+        "quantity": 3
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG K8 X240I (Black-Gold, 16GB)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/618qjwMajyL._SL1500_.jpg",
+        "brand": "LG",
+        "bookedUntil": [
+          {
+            "date": "2022-02-25"
+          }
+        ],
+        "os": "Android",
+        "id": "1563171668",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG G6 (Black, FullVision)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71reMtgW8IL._SL1500_.jpg",
+        "brand": "LG",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563174727",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG K10 (16GB Dual SIM, Black-Gold)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61ivDQjctSL._SL1000_.jpg",
+        "brand": "LG",
+        "bookedUntil": [
+          {
+            "date": "2022-02-12"
+          },
+          {
+            "date": "2022-03-10"
+          },
+          {
+            "date": "2022-03-14"
+          },
+          {
+            "date": "2022-05-12"
+          },
+          {
+            "date": "2022-08-09"
+          },
+          {
+            "date": "2022-10-12"
+          }
+        ],
+        "os": "Android",
+        "id": "1563183678",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Accessories",
+        "name": "Logitech H110 Stereo Headset, Black & Grey",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71mgVSFom1L._SL1500_.jpg",
+        "brand": "Logitech",
+        "bookedUntil": [
+          {
+            "date": "2022-02-12"
+          },
+          {
+            "date": "2022-03-10"
+          },
+          {
+            "date": "2022-03-14"
+          },
+          {
+            "date": "2022-05-12"
+          },
+          {
+            "date": "2022-08-09"
+          },
+          {
+            "date": "2022-10-12"
+          }
+        ],
+        "os": null,
+        "id": "1563182132",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 Pro (Mirror Grey, 8GB RAM, 256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51L78CjkwRL._SL1000_.jpg",
+        "brand": "One Plus",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563167035",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 Pro (Mirror Grey, 6GB RAM, 128GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51L78CjkwRL._SL1000_.jpg",
+        "brand": "One Plus",
+        "bookedUntil": [
+          {
+            "date": "2022-02-24"
+          },
+          {
+            "date": "2022-03-10"
+          }
+        ],
+        "os": "Android",
+        "id": "1563167118",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 Pro (Almond, 8GB RAM, 256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51jwcbqlWxL._SL1000_.jpg",
+        "brand": "One Plus",
+        "bookedUntil": [
+          {
+            "date": "2022-04-07"
+          }
+        ],
+        "os": "Android",
+        "id": "156316a118",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 (Red, 8GB RAM, 256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51uWO-4ChCL._SL1000_.jpg",
+        "brand": "One Plus",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563167188",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 6T McLaren Limited Edition (Speed Orange, 10GB RAM,256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51%2BWKvgaFJL._SL1000_.jpg",
+        "brand": "One Plus",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "15s3167188",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 6T (Midnight Black, 8GB RAM, 128GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61IOy90qTSL._SL1300_.jpg",
+        "brand": "One Plus",
+        "bookedUntil": [
+          {
+            "date": "2022-09-16"
+          }
+        ],
+        "os": "Android",
+        "id": "1563167354",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 Pro (Nebula Blue, 12GB RAM, 256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51pS0wjqy3L._SL1000_.jpg",
+        "brand": "One Plus",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563168802",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Philips Linea V Design (M350) Cordless Phone with Speaker, Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61Dx6cNJOeL._SL1250_.jpg",
+        "brand": "Philips",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "1563168018",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Gadgets and hardware",
+        "name": "Philips Hue Smart Light Starter Kit with 10W E27 Bulb (White & Color), Compatible with Amazon Alexa, Apple HomeKit, and The Google Assistant",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51u3-6AeGiL._SL1000_.jpg",
+        "brand": "Philips",
+        "bookedUntil": null,
+        "os": null,
+        "id": "1563176859",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Accessories",
+        "name": "Philips BT50W/00 Portable Wireless Bluetooth Speaker, white",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61dMHWcQ1BL._SL1443_.jpg",
+        "brand": "Philips",
+        "bookedUntil": [
+          {
+            "date": "2022-03-18"
+          }
+        ],
+        "os": null,
+        "id": "1563179687",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J4 (Black, 32GB) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61-koeG0vQL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-03-01"
+          },
+          {
+            "date": "2022-03-11"
+          },
+          {
+            "date": "2022-05-16"
+          },
+          {
+            "date": "2022-05-18"
+          },
+          {
+            "date": "2022-11-10"
+          },
+          {
+            "date": "2022-12-01"
+          }
+        ],
+        "os": "Android",
+        "id": "1563175935",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A6 (Blue, 4GB RAM, 64GB Storage) with Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61SDmRMOj%2BL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563176345",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10 Plus Ceramic White, 12GB RAM, 1TB Storage",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61LFYmFlLuL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-03-14"
+          },
+          {
+            "date": "2022-06-23"
+          },
+          {
+            "date": "2022-06-29"
+          }
+        ],
+        "os": "Android",
+        "id": "1563178141",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J4 Plus (Black, 2GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/713JPtGrJHL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "156sd79687",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A6 (Black, 4GB RAM, 64GB Storage) with Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61SCSEZRTdL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-02-14"
+          },
+          {
+            "date": "2022-06-14"
+          },
+          {
+            "date": "2022-06-25"
+          },
+          {
+            "date": "2022-07-06"
+          },
+          {
+            "date": "2022-11-15"
+          },
+          {
+            "date": "2022-12-24"
+          }
+        ],
+        "os": "Android",
+        "id": "1563188037",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy Note 9 (Midnight Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61-3SaQysBL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-07-17"
+          },
+          {
+            "date": "2022-07-17"
+          }
+        ],
+        "os": "Android",
+        "id": "1563189419",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi 6 (Gold, 3GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41A5bmI8JNL.jpg",
+        "brand": "Xiomi",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563168346",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi 6 (Rose Gold, 3GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41A5bmI8JNL.jpg",
+        "brand": "Xiomi",
+        "bookedUntil": [
+          {
+            "date": "2022-08-25"
+          }
+        ],
+        "os": "Android",
+        "id": "156316s802",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Mi Mix 2 (Black, 6GB RAM, 128GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41A5bmI8JNL.jpg",
+        "brand": "Xiomi",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563171267",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi Note 4 (Grey, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81YxYZoHEHL._SL1500_.jpg",
+        "brand": "Xiomi",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563171460",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi Note 5 Pro (Blue, 6GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71FIzR3BfDL._SL1500_.jpg",
+        "brand": "Xiomi",
+        "bookedUntil": [
+          {
+            "date": "2022-08-13"
+          },
+          {
+            "date": "2022-09-11"
+          },
+          {
+            "date": "2022-10-13"
+          }
+        ],
+        "os": "Android",
+        "id": "1563173033",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi Note 4 (Black, 64GB)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81%2BABCJR0XL._SL1500_.jpg",
+        "brand": "Xiomi",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563175445",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Mi Redmi Note 5 (3 GB RAM, 32 GB, Gold)",
+        "image": "https://img.gkbcdn.com/s3/p/2018-04-25/global-version-xiaomi-redmi-note-5-5-99-inch-3gb-32gb-smartphone-gold-1571985621989.jpg",
+        "brand": "Xiomi",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563184161",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S9 (4GB RAM, 256GB Storage) Midnight Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41tztfhVW-L._SL1000_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563170945",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J6 (Blue, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61yRCT3lgQL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563171925",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S9 Plus SM-G965FZKDINS (Midnight Black, 6GB RAM, 64GB Storage) Without Offer",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61BXWwb80hL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "15s3173033",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Samsung Galaxy Tab A 7.0 Tablet (7 inch, 8GB, Wi-Fi + 4G Volte + Voice Calling), Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61dU9YGVIUL._SL1200_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-04-23"
+          }
+        ],
+        "os": "Android",
+        "id": "156317515a",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Samsung Galaxy Tab A 7.0 Tablet (7 inch, 8GB, Wi-Fi + 4G Volte + Voice Calling), Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61dU9YGVIUL._SL1200_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-05-12"
+          }
+        ],
+        "os": "Android",
+        "id": "1563175275",
+        "quantity": 3
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61fv4VZRQ7L._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-03-01"
+          },
+          {
+            "date": "2022-05-28"
+          }
+        ],
+        "os": "Android",
+        "id": "1563175504",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Samsung Galaxy Tab A 2017 SM-T385NZDAINS Tablet (8 inch, 16GB, Wi-Fi + 4G LTE + Voice Calling), Gold",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71g4rGJKBTL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "156317fg504",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A8+ (Gold, 6GB RAM, 64GB Storage) with Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71KjwTnBCNL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563175834",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (White, 6GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/819OPU84B%2BL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1a63167118",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (White, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/819OPU84B%2BL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "156316s188",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A10 (Blue, 2GB RAM and 32GB) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71ftMiKUwbL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563167259",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A20 (Gold, 3GB RAM, 32GB Storage) with No Cost EMI/Additional Exchange Offer",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81xZ9nTmxHL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-09-11"
+          }
+        ],
+        "os": "Android",
+        "id": "1sd3167259",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (Blue, 6GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81eCI5lrCAL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563sdf259",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A2 Core (Blue, 1GB RAM, 16GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71z5NTng2GL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-08-16"
+          },
+          {
+            "date": "2022-09-28"
+          }
+        ],
+        "os": "Android",
+        "id": "15631dfg59",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru FM Plus (SM-B110E/D, Dark Blue)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71j7xiYo-QL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "156s167354",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (Black, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81J2Udk-2NL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-03-01"
+          }
+        ],
+        "os": "Android",
+        "id": "15631673a4",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy M40 (Seawater Blue, 6GB RAM, 128GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81IYq0D1rxL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "15as167354",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A30 (Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81lcrlBzZFL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "d563167354",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81eCI5lrCAL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563167420",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (Black, 6GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81J2Udk-2NL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "156316d420",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A8 Star (Black, 6GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61F5WIQMg%2BL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-02-13"
+          }
+        ],
+        "os": "Android",
+        "id": "1563167496",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A30 (White, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81AZ757zrGL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1sdf167496",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A30 (White, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81AZ757zrGL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-07-01"
+          },
+          {
+            "date": "2022-09-28"
+          }
+        ],
+        "os": "Android",
+        "id": "1563167577",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru FM Plus (SM-B110E/D, White)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61yZV1l7D%2BL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-03-12"
+          },
+          {
+            "date": "2022-05-24"
+          }
+        ],
+        "os": "Linux",
+        "id": "1563167678",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung EVO Plus Grade 1, Class 10 32GB MicroSDHC 95 MB/S Memory Card with SD Adapter (MB-MC32GA/IN)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41flNfpUo1L._SX466_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": null,
+        "id": "156316asd78",
+        "quantity": 3
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A10 (Black, 2GB RAM and 32GB) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71qJXXHQWXL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "156sdf7678",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Metro 313 (SM-B313E, Black)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71QHB16ZzUL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-07-14"
+          }
+        ],
+        "os": "Linux",
+        "id": "1563167748",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Metro 313 (SM-B313E, Gold)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71MNgRR8kWL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "1563167fg8",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A8+ (Black, 6GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71ixEbKAu1L._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-08-19"
+          },
+          {
+            "date": "2022-10-10"
+          }
+        ],
+        "os": "Android",
+        "id": "1563167890",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru Music 2 (SM-B310E, Blue)",
+        "image": "https://blueqore.com/wp-content/uploads/2018/02/guru3-1aefe-1.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "1563167952",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru Music 2 (SM-B310E, Blue)",
+        "image": "https://blueqore.com/wp-content/uploads/2018/02/guru3-1aefe-1.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "15as168018",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A70 (Blue, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81ewhyroADL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "15631a8222",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru 1200 (GT-E1200, White)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41g1dc%2B65iL.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "156316a222",
+        "quantity": 3
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru 1200 (GT-E1200, White)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41g1dc%2B65iL.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "1563168282",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10 Plus (Black, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/619jtWsN0cL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "15631as282",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Metro 313 (SM-B313E, Grey)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71eK72baU9L._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-06-26"
+          },
+          {
+            "date": "2022-07-28"
+          },
+          {
+            "date": "2022-08-02"
+          },
+          {
+            "date": "2022-08-29"
+          },
+          {
+            "date": "2022-09-21"
+          }
+        ],
+        "os": "Linux",
+        "id": "1563168595",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10 Plus (White, 8GB RAM, 512GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61dvlh%2BCsqL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "15631s8714",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J6 (Black, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61AUegCz3fL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563168s14",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J6 (Black, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61AUegCz3fL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563168766",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10e (Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Mn%2B13UizL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563168846",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru Music 2 (SM-B310E, Black)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61--zZV5y-L._SL1200_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "1563168964",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A70 (Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81F2OEF3erL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": [
+          {
+            "date": "2022-02-14"
+          }
+        ],
+        "os": "Android",
+        "id": "1563169643",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J6 (Gold, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61yGk6vF-hL._SL1500_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563169834",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S9 (4GB RAM, 256GB Storage) Midnight Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41tztfhVW-L._SL1000_.jpg",
+        "brand": "Samsung",
+        "bookedUntil": null,
+        "os": "Android",
+        "id": "1563170785",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Gadgets and hardware",
+        "name": "Dell 40WHr 4-Cell Primary Lithium-Ion Battery (FW1MN)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/510l2jVGsEL._SL1024_.jpg",
+        "brand": "Dell",
+        "bookedUntil": null,
+        "os": null,
+        "id": "1569107985",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Microsoft Lumia 950 XL (White)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61bLFasBlbL._SL1000_.jpg",
+        "brand": "Microsoft",
+        "bookedUntil": null,
+        "os": "Windows",
+        "id": "1563507285",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Accessories",
+        "name": "SteelSeries Arctis 5 2019 Edition Gaming Headset (Black)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71QSJpHokIL._SL1500_.jpg",
+        "brand": "SteelSeries",
+        "bookedUntil": null,
+        "os": null,
+        "id": "1563502885",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Laptop",
+        "name": "Dell Inspiration 15 3582",
+        "image": "https://images.kaina24.lt/9/82/dell-inspiron-3582.jpg",
+        "brand": "Dell",
+        "bookedUntil": null,
+        "os": "Windows",
+        "id": "1563508385",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Laptop",
+        "name": "Apple introduces 16-inch MacBook Pro",
+        "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_16-inch-MacBook-Pro_111319_LP_hero.jpg.og.jpg",
+        "brand": "Apple",
+        "bookedUntil": null,
+        "os": "MacOS",
+        "id": "1563518885",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Laptop",
+        "name": "Xiaomi Mi Notebook Pro",
+        "image": "https://ae01.alicdn.com/kf/HTB1wVxnaLMTUeJjSZFKq6ygopXan/Xiaomi-Mi-Notebook-Air-Pro-15-6-Inch-Laptop-Intel-Core-i5-8250U-CPU-NVIDIA-8GB.jpg_640x640.jpg",
+        "brand": "Xiaomi",
+        "bookedUntil": null,
+        "os": "Linux",
+        "id": "1563563285",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Desktop",
+        "name": "iMac",
+        "image": "https://istore.lt/media/catalog/product/cache/1/small_image/504x/602f0fa2c1f0d1ba5e241f914e856ff9/i/m/imac21nonretina.png",
+        "brand": "Apple",
+        "bookedUntil": null,
+        "os": "MacOS",
+        "id": "1563521285",
+        "quantity": 1
+      }
+    ],
+    "filterCategories": {
+      "deviceType": [
+        "Accessories",
+        "Desktop",
+        "Gadgets and hardware",
+        "Laptop",
+        "Mobile",
+        "Tablet"
+      ],
+      "os": ["MacOS", "iOS", "Android", "Windows", "Linux"],
+      "brand": [
+        "Apple",
+        "Dell",
+        "Google",
+        "HTC",
+        "LG",
+        "Logitech",
+        "Microsoft",
+        "One Plus",
+        "Philips",
+        "Razer",
+        "Samsung",
+        "SteelSeries",
+        "Xiaomi"
+      ]
+    }
+  }
+}

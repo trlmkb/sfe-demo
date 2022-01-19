@@ -16,8 +16,7 @@ import { CardSlider } from "components/CardSlider";
 import { filterSimilarTo } from "../../utils/filterSimilarTo";
 import { UserContext } from "../../features/UserContext";
 
-const dbPath =
-  "/api";
+const dbPath = "/api";
 
 export const EatOutRestaurant = () => {
   const { userDataLoading, userDataError, userDataErrorMsg } =

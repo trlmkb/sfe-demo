@@ -14,8 +14,7 @@ import { EatOutCategories } from "../EatOut/components/EatOutCategories";
 import { motion } from "framer-motion";
 import { fromToptoBottomAnimation } from "../../animations";
 import { ErrorScreen } from "components/ErrorScreen/ErrorScreen";
-const dbPath =
-  "/api";
+const dbPath = "/api";
 
 const locationAPI = {
   key: process.env.REACT_APP_LOCATION_API_KEY,

@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && copyfiles api/**/* build/api",
+    "build": "react-scripts build && copyfiles api/**/* build",
     "eject": "react-scripts eject",
     "lint": "npm run -s lint:prettier:check && npm run -s lint:eslint:check && npm run -s lint:stylelint:check",
     "lint:fix": "npm run -s lint:prettier:fix",
